@@ -21,7 +21,7 @@ nav a:link, nav a:visited { color: white; display: inline-block; height: 30px; p
 nav a:hover { color: black; }
 
 /* section background and margins*/
-section.main { background: url('aboutLeaf.png') no-repeat 50% 20px; padding: 20px; }
+section.main { background: url('aboutLeaf.png') no-repeat 50% 20px; padding: 20px; min-height: 450px; }
 
 /* two column layout */
 section.main div.leftCol, section.main div.rightCol { display: inline-block; width: 25%; text-align: left; vertical-align: top; }
