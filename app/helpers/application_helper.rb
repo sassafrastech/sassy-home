@@ -23,4 +23,8 @@ module ApplicationHelper
     MENU
   end
   
+  def divider
+    image_tag("divider.png", :class => "divider")
+  end
+  
 end
