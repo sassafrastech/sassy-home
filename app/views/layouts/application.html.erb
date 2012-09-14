@@ -8,23 +8,26 @@
 </head>
 <body <%= home? ? 'class=home' : '' %> >
 
-<header id="banner" class="body">
-  <div class="bannerLogo">
-    <a href="/home/">
-		<%= image_tag home? ? "logo.png" : "logo2.png", :class => "banner" %>
-	</a>
-		<div class="breadcrumb"><%= get_active_menu_item %></div>
-	
-  </div>
+  <header id="banner" class="body">
+    <div class="bannerLogo">
+      <a href="/home/">
+        <%= image_tag home? ? "logo.png" : "logo2.png", :class => "banner" %>
+      </a>
+      <div class="breadcrumb"><%= get_active_menu_item %></div>
+    </div>
 
-    <nav><ul>
-	<% get_menu.each do |m| %>
-    <li> <%= link_to m[:name], "/#{m[:link]}" %> </li>
-	<% end %>
-    </ul></nav>
-</header>
+    <nav>
+      <ul>
+        <% get_menu.each do |m| %>
+          <li> <%= link_to m[:name], "/#{m[:link]}" %> </li>
+        <% end %>
+      </ul>
+    </nav>
+  </header>
 
-<%= yield %>
+  <%= yield %>
+
+  <footer>f</footer>
 
 </body>
 </html>

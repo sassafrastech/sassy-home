@@ -114,17 +114,16 @@ body{ text-align: center;}
 
 }
 
-.footer {
+footer {
   background-color: black;
-  display:inline-block;
-  width:96.5%;
-  position:relative;
+  display: block;
+  position: relative;
   height: 30px;
   text-align: right;
   font-family: WebSymbols;
-  font-size:20px;
+  font-size: 20px;
   color: #FF8B00;
   padding-right: 40px;
-  padding-top:10px;
+  padding-top: 10px;
   letter-spacing: 10px;
 }
