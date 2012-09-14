@@ -1,0 +1,107 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+/* HTML5 tags */ header, section, footer, aside, nav, article, figure { display: block; }
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: font-url('League_Gothic-webfont.eot');
+    src: local(League_Gothic-webfont), font-url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('League_Gothic-webfont.woff') format('woff'),
+         font-url('League_Gothic-webfont.ttf') format('truetype'),
+         font-url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: font-url('aller_rg-webfont.eot');
+    src: local('aller_rg-webfont'),font-url('aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('aller_rg-webfont.woff') format('woff'),
+         font-url('aller_rg-webfont.ttf') format('truetype'),
+         font-url('aller_rg-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// HOME PAGE ONLY
+.home {
+	/* Header */
+	#banner {
+	  background-color:white;
+	  background: none;
+	}
+
+
+
+	/* Main Nav */
+	#banner nav {
+		background: none;
+	}
+
+
+	#banner nav a:link, #banner nav a:visited { 
+	color: #999999; }
+	#banner nav a:hover { color: black;}
+
+	/* Main Section */
+	#mainSection section{
+	  height:600px;
+	  border: 1px solid black;
+	  h1 {
+	    font-family: aller;
+	  }
+	}
+}
+// ===========================================
+// ALL OTHER PAGES
+#banner {
+  padding: 40px 0px 0px 40px;
+  height: 120px;
+  width: auto;
+  background-image:url('bannerPrint.png');
+  background-repeat: repeat;
+}
+
+.bannerLogo img {
+  margin: 10px 0px;
+  float:left;
+}
+
+.breadcrumb {
+	a:link,a:visited,a:hover {
+		text-decoration:none;
+		font-family:"LeagueGothicRegular";
+	}
+}
+
+
+#banner nav ul {list-style: none; margin: 0 auto; width: 400px;}
+#banner nav li {float: left; display: inline; margin: 0;}
+
+#banner nav a:link, #banner nav a:visited {
+color: white; display: inline-block; height: 30px; padding: 3px 1em; text-decoration: none; text-transform:uppercase;}
+#banner nav a:hover { color: black;}
+
+/* Main Nav */
+#banner nav {
+	float:right;
+	font-family: "LeagueGothicRegular";
+	font-size: 19px;
+	height: 40px;
+	line-height: 30px;
+	background: none;
+	width: 400px;
+	text-align: left;
+	padding:0;
+	margin: 30px 0 0 0;
+}
+
+
+

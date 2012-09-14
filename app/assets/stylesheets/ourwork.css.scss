@@ -1,0 +1,42 @@
+.clientBox {
+	position: relative;
+	width:90%;
+	height:320px;
+	text-align:left;
+	margin: 20px auto;
+	background-color: #EDEDED;
+	p {
+		font-family:Verdana, sans-serif;
+		text-align:justify;
+		font-size:12px;
+	}
+	h2 {
+		font-family:LeagueGothic,Tahoma, sans-serif;
+		font-weight:400;
+		font-size:22pt;
+		margin:10px 0px;
+	}
+}
+
+.clientImageBox {
+	float:left;
+	margin:10px;
+	vertical-align:text-top;}
+
+.clientIconBox {
+	float:left;
+	margin:0px;
+	width:70px;
+	vertical-align:text-top;
+}
+
+.clientIconText {
+	float:left;
+	width:100px;
+	margin-right:10px;
+}
+	
+.clientTextBox {
+	float: left;
+	width:65%;
+}

@@ -1,0 +1,73 @@
+.aboutBackground {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	height:400px;
+	background-image:url('aboutLeaf.png');
+	background-repeat:no-repeat;
+	
+	h1 {
+		font-family:Georgia;
+		font-size:21px;
+		color:gray;
+		font-style:italic;
+		text-align:center;
+		font-weight:100;
+		padding-top:30px;
+		line-height: 30px;
+        letter-spacing: 1.3px;		
+	}
+	
+	h2 {
+		color:#333333;
+	}
+	
+	a:link {
+		color:orange;
+		text-decoration:none;
+	}
+	a:visited {
+		color:orange;
+	}
+	a:hover{
+		color:black;
+	}
+
+	
+	p {
+		text-align:justify;
+		font-size:14px;
+	}
+	
+
+}
+
+.aboutContainer {
+	width:60%;
+	margin:10px auto;
+	text-align:center;
+	height:300px;
+}
+
+.personContainer {
+	margin-right:50px;
+	margin-left:50px;
+	display:inline-block;
+	text-align:center;
+	h3 {
+		font-family: LeagueGothic, sans-serif;
+		margin:2px;
+		font-weight:400;
+	}
+	p {
+		font-family:verdana;
+		font-size:10px;
+	}
+	
+	.webDings {
+		text-align:left;
+		float:none;
+		font-size:12px;
+	}
+}
+
