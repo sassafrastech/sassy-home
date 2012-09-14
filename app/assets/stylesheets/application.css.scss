@@ -6,109 +6,80 @@
 /* HTML5 tags */
 header, section, footer, aside, nav, article, figure { display: block; }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: aller_lightregular;
+
+body { margin: 0px; padding: 0px; font-family: aller_lightregular; }
+
+/* banner */
+header { padding: 40px 0px 0px 40px; height: 120px; width: auto; background-image: url('bannerPrint.png'); background-repeat: repeat; }
+.bannerLogo img { margin: 10px 0px; float:left; }
+.breadcrumb { a:link, a:visited, a:hover { text-decoration: none; font-family: LeagueGothicRegular; } }
+nav { float: right; font-family: LeagueGothicRegular; font-size: 19px; height: 40px; width: 400px; margin: 30px 0 0 0; }
+nav ul { list-style: none; margin: 0 auto; width: 400px; }
+nav li { float: left; display: inline; margin: 0; }
+nav a:link, nav a:visited { color: white; display: inline-block; height: 30px; padding: 3px 1em; 
+  text-decoration: none; text-transform: uppercase; }
+nav a:hover { color: black; }
+
+/* section background and margins*/
+section.main { background: url('aboutLeaf.png') no-repeat 50% 20px; padding: 20px; }
+
+/* two column layout */
+section.main div.leftCol, section.main div.rightCol { display: inline-block; width: 25%; text-align: left; vertical-align: top; }
+
+/* footer */
+footer { clear: both; }
+
+/* links */
+a:link { text-decoration: none; color:#FF8B00; }
+a:hover { color: #FF8B00; }
+
+/*.contactLeft {
+	display:inline-block;
+	width:20%;
+	margin: 45px ;
+	text-align:left;
+	padding-left:10px;
+	height:400px;
+	vertical-align: top;
 }
 
-header {
-  padding: 40px 0px 0px 40px;
-  height: 120px;
-  width: auto;
-  background-image: url('bannerPrint.png');
-  background-repeat: repeat;
-}
-
-.bannerLogo img {
-  margin: 10px 0px;
-  float:left;
-}
-
-.breadcrumb {
-  a:link, a:visited, a:hover {
-    text-decoration: none;
-    font-family: LeagueGothicRegular;
-  }
-}
-
-nav {
-  float: right;
-  font-family: LeagueGothicRegular;
-  font-size: 19px;
-  height: 40px;
-  width: 400px;
-  margin: 30px 0 0 0;
-}
-
-nav ul {
-  list-style: none; 
-  margin: 0 auto; 
-  width: 400px;
-}
-
-nav li {
-  float: left; 
-  display: inline; 
-  margin: 0;
-}
-
-nav a:link, nav a:visited {
-  color: white; 
-  display: inline-block; 
-  height: 30px; 
-  padding: 3px 1em; 
-  text-decoration: none; 
-  text-transform: uppercase;
-}
-
-nav a:hover {
-  color: black;
-}
+.contactRight {
+	display:inline-block;
+	width:30%;
+	margin: 20px;
+	text-align:left;
+	padding-left:100px	;
+	padding-top:40px;
+	height:400px;
+}*/
 
 /* EMBEDDED FONTS */
 
-@font-face {
-    font-family: 'LeagueGothicRegular';
-    src: font-url('League_Gothic-webfont.eot');
-    src: local(League_Gothic-webfont), font-url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('League_Gothic-webfont.woff') format('woff'),
-         font-url('League_Gothic-webfont.ttf') format('truetype'),
-         font-url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face { 
+  font-family: 'LeagueGothicRegular'; 
+  src: font-url('League_Gothic-webfont.eot'); 
+  src: local(League_Gothic-webfont), font-url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'), font-url('League_Gothic-webfont.woff') format('woff'), font-url('League_Gothic-webfont.ttf') format('truetype'), font-url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg'); 
+  font-weight: normal; 
+  font-style: normal; 
 }
-
-@font-face {
-    font-family: 'allerregular';
-    src: font-url('aller_rg-webfont.eot');
-    src: local('aller_rg-webfont'),font-url('aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('aller_rg-webfont.woff') format('woff'),
-         font-url('aller_rg-webfont.ttf') format('truetype'),
-         font-url('aller_rg-webfont.svg#allerregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face { 
+  font-family: 'allerregular'; 
+  src: font-url('aller_rg-webfont.eot'); 
+  src: local('aller_rg-webfont'),font-url('aller_rg-webfont.eot?#iefix') format('embedded-opentype'), font-url('aller_rg-webfont.woff') format('woff'), font-url('aller_rg-webfont.ttf') format('truetype'), font-url('aller_rg-webfont.svg#allerregular') format('svg'); 
+  font-weight: normal; 
+  font-style: normal; 
 }
-
-@font-face {
-    font-family: 'aller_lightregular';
-    src: font-url('aller_lt-webfont.eot');
-    src: local('aller_lt-webfont'),font-url('aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('aller_lt-webfont.woff') format('woff'),
-         font-url('aller_lt-webfont.ttf') format('truetype'),
-         font-url('aller_lt-webfont.svg#aller_lightregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+@font-face { 
+  font-family: 'aller_lightregular'; 
+  src: font-url('aller_lt-webfont.eot'); 
+  src: local('aller_lt-webfont'),font-url('aller_lt-webfont.eot?#iefix') format('embedded-opentype'), font-url('aller_lt-webfont.woff') format('woff'), font-url('aller_lt-webfont.ttf') format('truetype'), font-url('aller_lt-webfont.svg#aller_lightregular') format('svg'); 
+  font-weight: normal; 
+  font-style: normal; 
 }
-
-@font-face {
-    font-family: 'WebSymbols';
-    src: font-url('WebSymbols-Regular-webfont.eot');
-    src: local('WebSymbols-Regular-webfont'),font-url('WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('WebSymbols-Regular-webfont.woff') format('woff'),
-         font-url('WebSymbols-Regular-webfont.ttf') format('truetype'),
-         font-url('WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face { 
+  font-family: 'WebSymbols'; 
+  src: font-url('WebSymbols-Regular-webfont.eot'); 
+  src: local('WebSymbols-Regular-webfont'),font-url('WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'), font-url('WebSymbols-Regular-webfont.woff') format('woff'), font-url('WebSymbols-Regular-webfont.ttf') format('truetype'), font-url('WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg'); 
+  font-weight: normal; 
+  font-style: normal; 
 }

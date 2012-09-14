@@ -26,9 +26,10 @@
   section.main {
   
     height: 450px;
-    background-image: url('treeBg.png');
+    background: url('treeBg.png') repeat !important;
     text-align: right;
     margin-top: -20px;
+    padding: 0 !important;
 
     h1 {
       font-family: aller_lightregular;
