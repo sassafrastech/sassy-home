@@ -14,7 +14,6 @@
 
 }
 
-
 @font-face {
     font-family: 'WebSymbols';
     src: font-url('WebSymbols-Regular-webfont.eot');
@@ -26,12 +25,10 @@
     font-style: normal;
 }
 
-
-
 body {
   margin: 0px;
   padding: 0px;
-  font-family:aller_lightregular;
+  font-family: aller_lightregular;
 }
 
 /* Main Section */
@@ -40,7 +37,7 @@ body {
   background-image:url('treeBg.png');
   text-align: right;
   margin-top:-20px;
-  
+
   h1 {
     font-family:aller_lightregular;
     font-size:38px;
@@ -50,8 +47,9 @@ body {
     margin-right: 30px;
     margin-bottom: 10px;
     padding: 50px 10px 0px 0px;
-    color:#333333;
-  } 
+    color: #333333;
+  }
+
   h2 {
     font-size: 16px;
     text-transform:uppercase;
@@ -60,15 +58,16 @@ body {
 
   h3 {
     font-size:12px;
- }
+  }
 
   a:link {
     text-decoration: none;
-    color:#333333;
- }
-  a:hover {
-    color:#FF8B00;
- }
+    color: #333333;
+  }
+
+  a:hover, a *:hover {
+    color: #FF8B00;
+  }
 }
 
 .greenText {
@@ -133,7 +132,6 @@ body {
   letter-spacing: 10px;
 }
 
-
 .webDings {
   font-family: WebSymbols;
   font-size:12px;
@@ -142,11 +140,21 @@ body {
   text-align: right;
 }
 
-.webDingsGray {
+.readMoreLink {
+  display: block;
+  position: relative;
+  margin-right: 30px;
+  float: right;
+  width: 100px;
+  padding-right: 30px;
+}
+
+.readMoreLink div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
   font-family: WebSymbols;
   color: #666666;
   margin-right: 45px;
 }
-
-
-
