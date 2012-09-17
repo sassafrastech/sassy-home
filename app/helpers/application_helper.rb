@@ -16,7 +16,7 @@ module ApplicationHelper
   end
       
   def home?
-    controller.controller_name == 'static' && params[:id] == 'home'
+    params[:controller] == "home"
   end
   
   def get_menu
