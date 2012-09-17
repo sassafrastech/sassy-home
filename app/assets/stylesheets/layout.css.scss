@@ -11,6 +11,11 @@ body {
   font-family: aller_lightregular; 
   background: #666; 
   line-height: 150%; 
+  color: #666;
+}
+
+h1, h2, h3 {
+  color: black;
 }
 
 /* banner */
@@ -118,9 +123,13 @@ div.divider {
   border-top: 1px solid #ccc;
   padding: 0;
   margin: 40px 100px 20px 100px;
-  
-  > div { clear: both; height: 0; }
 }
+
+div.clearer {
+  clear: both; 
+  height: 0; 
+}
+  
 
 /* embedded fonts */
 @font-face { 

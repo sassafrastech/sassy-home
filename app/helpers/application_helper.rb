@@ -16,9 +16,7 @@ module ApplicationHelper
   end
   
   def divider
-    content_tag("div", :class => "divider") do
-
-    end
+    content_tag("div", :class => "divider"){}
   end
 
   def is_active?(link)

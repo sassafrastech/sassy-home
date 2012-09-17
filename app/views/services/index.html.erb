@@ -1,17 +1,16 @@
-<div class="servicesGrayBox">
-  <div class="servicesTextBox"><h2><%= image_tag "logoOrange.png" %>Research</h2></div>
-  <div class="servicesTextBoxDashed"><h2><%= image_tag "logoGreen.png" %>Interaction Design</h2></div>
-  <div class="servicesTextBox"><h2><%= image_tag "logoBlue.png" %>Development</h2></div>
-</div>
-
-<% services_by_category.each_with_index do |category, idx| %>
-  <div class="servicesTextDetail <%= idx == 0 ? 'first' : '' %>">
-  <% category[:services].each do |service| %>
-    <div>
-      <h3><%= service[:name] %></h3>
-      <p class="shortBlurb"><%= service[:short_blurb] %> <%= link_to("More ...", "#") %></p>
-      <p class="longBlurb"><%= service[:long_blurb] %></p>
-    </div>
-  <% end %>
-  </div>
-<% end %>
+<table>
+  <tr>
+    <% services_by_category.each_with_index do |category, idx| %>
+      <td class="category category<%= idx %>">
+        <h2><%= category[:name] %></h2>
+        <% category[:services].each do |service| %>
+          <div>
+            <h3><%= service[:name] %></h3>
+            <p class="shortBlurb"><%= service[:short_blurb] %> <%= link_to("More...", "#") %></p>
+            <p class="longBlurb"><%= service[:long_blurb] %></p>
+          </div>
+        <% end %>
+      </td>
+      <% end %>
+  </tr>
+</table>

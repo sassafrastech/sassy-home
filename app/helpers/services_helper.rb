@@ -52,7 +52,7 @@ module ServicesHelper
         }
       ]
     },{
-      :name => "Interaction Design",
+      :name => "Development",
       :services => [
         {
           :name =>        "Custom Web Applications",

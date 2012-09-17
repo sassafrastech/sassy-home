@@ -1,77 +1,63 @@
 .services {
-  .servicesGrayBox {
-    background: rgba(27, 27, 25, 0.7);
-    height: 70px;
-    width: auto;
-    position: relative;
-    margin-top: 0px;
-    text-align: left;
-    img {
-      vertical-align:middle;
-    }
-    h2 {
-      font-family: aller_lightregular;
-      font-size: 21px;
-      font-weight: 200;
-      letter-spacing: 1.5px;
-      text-align:left;
-      padding-left:5px;
-      margin: 0px;
-    }
-  }
-  .servicesTextBox {
-    float:left;
-    width: 32.7%;
-    height:50px;
-    text-align: left;
-    padding-top:20px;  
-    h2 {
-      color: white;
-      text-transform:uppercase;
-    }
-  }
-  .servicesTextBoxDashed {
-    float:left;
-    border-right: 1px dashed white;
-    border-left: 1px dashed white;
-    vertical-align:middle;
-    padding-top:20px;  
-    width: 33%;
-    height:50px;
-    text-align: left;
-    h2 {
-      color: white;
-      text-transform:uppercase;
-    }
-  }
-  .servicesTextDetail {
-    width: 31%;
-    float:left;
+  .category {
+    /*background: rgba(27, 27, 25, 0.7); */
+    width: 25%;
     text-align: justify;
-    padding-left: 10px;
-    padding-right:10px;
-    padding-top: 10px;
+    padding: 0 20px 20px 20px;
     border-left: 1px dashed gray;
-    h3 {
-      font-family: LeagueGothic;
+    vertical-align: top;
+    
+    /* category heading */
+    h2 {
+      margin: 0 0 10px 0;
+      font-family: LeagueGothicRegular;
       text-transform: uppercase;
-      font-size: 20px; 
-      font-weight: 500;
-      color: #333333;
-      margin-top: 5px;
-      margin-bottom: -10px;
+      font-size: 26px;
+      padding: 8px 0 0 50px;
+      height: 40px;
+      background-position: -5px 0;
+      background-repeat: no-repeat;
     }
-    p {
-      font-family: verdana;
-      font-size: 11px;
-      color: black;
-      margin-bottom: 20px;
+    
+    /* individual service */
+    > div {
+      
+      h3 {
+        font-family: allerregular;
+        font-size: 14px; 
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #333333;
+        margin-top: 5px;
+        margin-bottom: -10px;
+      }
+      
+      p {
+        margin-bottom: 20px;
+      }
+      
+      p.longBlurb {
+        display: none;
+      }
     }
-    p.longBlurb {
-      display: none;
-    }
+    
   }
-  .servicesTextDetail.first {
+
+  /* no border on first category */
+  .category0 {
     border: none !important;
+  }
+  
+  /* different color logos */
+  .category0 h2 {
+    background-image: url("logoBlue.png");
+  }
+  
+  .category1 h2 {
+    background-image: url("logoGreen.png");
+  }
+  
+  .category2 h2 {
+    background-image: url("logoOrange.png");
   }
 }
