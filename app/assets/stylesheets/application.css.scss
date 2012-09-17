@@ -26,7 +26,20 @@ section.main { background: url('aboutLeaf.png') no-repeat 50% 20px; padding: 20p
 section.main div.leftCol, section.main div.rightCol { display: inline-block; width: 25%; text-align: left; vertical-align: top; }
 
 /* footer */
-footer { clear: both; }
+footer {
+  background-color: black;
+  display: block;
+  position: relative;
+  height: 30px;
+  text-align: right;
+  font-family: WebSymbols;
+  font-size: 20px;
+  color: #FF8B00;
+  padding-right: 40px;
+  padding-top: 10px;
+  letter-spacing: 10px;
+  clear: both;
+}
 
 /* links */
 a:link { text-decoration: none; color:#FF8B00; }
