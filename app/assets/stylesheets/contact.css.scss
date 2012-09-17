@@ -1,3 +1,17 @@
 .contact {
-  a.email_link { font-size: 25pt; }
+  
+  section.main form {
+    width: 250px;
+    font-family: AllerRegular, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  
+  section.main input {
+    width: 300px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+  }
 }
