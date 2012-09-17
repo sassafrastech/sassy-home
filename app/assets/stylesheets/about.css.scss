@@ -1,15 +1,20 @@
 .about {
+  
+  /* gutters */
   section.main > div { width: 60%; margin: 0 auto; }
+  
+  /* tagline at top */
   h1 { font-family: Georgia; font-size: 21px; color: gray; font-style: italic; text-align: center; 
     font-weight: 100; padding-top: 30px; line-height: 30px; letter-spacing: 1.3px; }
-  h1 a { color: #FF8B00; }
-  h2 { color: #333333; }
-  div.blurb { text-align: justify; font-size: 14px; line-height: 200%; }
+    
+  /* deeply */
+  h2 { color: #333333; text-align: center; }
+  
+  div.blurb { text-align: justify; }
   .aboutContainer { text-align: center; height: 300px; }
   .personContainer { margin-right: 50px; margin-left: 50px; display: inline-block; text-align: center; vertical-align: top;
     img { border: 2px solid black; }
-    h3 { font-family: LeagueGothic, sans-serif; margin: 2px; font-weight:400; } 
-    p { font-family: verdana; font-size:10px; }
-    .webDings { text-align:left; float:none; font-size:12px; }
+    h3 { margin: 2px; } 
+    p { }
   }
 }

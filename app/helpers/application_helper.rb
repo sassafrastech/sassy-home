@@ -25,7 +25,7 @@ module ApplicationHelper
   
   def divider
     content_tag("div", :class => "divider") do
-      tag("br") + image_tag("divider.png")
+      content_tag("div") + image_tag("divider.png")
     end
   end
   
