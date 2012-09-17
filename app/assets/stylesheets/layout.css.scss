@@ -8,14 +8,30 @@ body { margin: 0px; padding: 0px; font-family: aller_lightregular; background: #
 
 /* banner */
 header { padding: 40px 0px 0px 40px; height: 120px; width: auto; background-image: url('bannerPrint.png'); background-repeat: repeat; }
-.bannerLogo img { margin: 10px 0px; float:left; }
-.breadcrumb { a:link, a:visited, a:hover { text-decoration: none; font-family: LeagueGothicRegular; } }
-nav { float: right; font-family: LeagueGothicRegular; font-size: 19px; height: 40px; width: 400px; margin: 30px 0 0 0; }
+.bannerLogo img { 
+  float:left; 
+}
+.breadcrumb {
+  float: left;
+  font-family: LeagueGothicRegular;
+  text-transform: uppercase;
+  font-size: 30pt;
+  margin: 30px 0 0 20px;
+  color: white;
+}
+nav { float: right; font-family: LeagueGothicRegular; font-size: 20px; height: 40px; width: 400px; margin: 30px 0 0 0; }
 nav ul { list-style: none; margin: 0 auto; width: 400px; }
 nav li { float: left; display: inline; margin: 0; }
-nav a:link, nav a:visited { color: white; display: inline-block; height: 30px; padding: 3px 1em; 
-  text-decoration: none; text-transform: uppercase; }
-nav a:hover { color: black; }
+nav a { 
+  color: white; 
+  display: inline-block; 
+  height: 30px;
+  padding: 3px 1em; 
+  text-decoration: none; text-transform: uppercase;
+}
+nav a:hover {
+  color: black;
+}
 
 /* section background and margins*/
 section.main { background: url('aboutLeaf.png') no-repeat 50% 20px white; padding: 20px; min-height: 450px; }

@@ -4,21 +4,13 @@ module ApplicationHelper
     {:name => "About", :link => "about"},
     {:name => "Our Work", :link => "our_work"},
     {:name => "Contact", :link => "contact"}
-    ]
+  ]
     
   def get_active_menu_item
-    item = MENU.find{|m| m[:link] == params[:id]}
-    if item.nil?
-      return ""
-    else
-      return item[:name]
-    end
+    item = MENU.find{|m| m[:link] == params[:controller]}
+    item.nil? ? "" : item[:name]
   end
       
-  def home?
-    params[:controller] == "home"
-  end
-  
   def get_menu
     MENU
   end
@@ -28,5 +20,8 @@ module ApplicationHelper
       content_tag("div") + image_tag("divider.png")
     end
   end
-  
+
+  def is_active?(link)
+    params[:controller] == link.to_s ? "active" : nil
+  end
 end
