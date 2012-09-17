@@ -2,128 +2,80 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.services{
-   h1 {
-     font-weight: 100;
-     margin-top:0px;
-   }
-   h2 {
-     font-family: aller_lightregular;
-     font-size: 21px;
-     font-weight: 200;
-     letter-spacing: 1.5px;
-     text-align:left;
-     padding-left:5px;
-	 margin: 0px;
-   }
-   h3 {
-     font-family: LeagueGothic;
-     text-transform: uppercase;
-     font-size: 20px; 
-     font-weight: 500;
-     color: #333333;
-     margin-top: 5px;
-     margin-bottom: -10px;
-   }
-   p {
-	font-family: verdana;
-        font-size: 11px;
-        color: black;
-        margin-bottom: 20px;
-   }
-
-   img {
+.services {
+  .servicesGrayBox {
+    background: rgba(27, 27, 25, 0.7);
+    height: 70px;
+    width: auto;
+    position: relative;
+    margin-top: 0px;
+    text-align: left;
+    img {
       vertical-align:middle;
-   }
-}
-
-body{ text-align: center;}
-
-.servicesLogo {
-   background-image:url('servicesGraphic.png');
-   background-repeat: no-repeat;
-   height: 375px;
-   border: 0px solid black;
-   width: 1000px;
-   position:relative;
-   margin-left:auto;
-   margin-right: auto;
-   margin-top:-10px;
-}
-
-.servicesGrayBox {
-  background: rgba(27, 27, 25, 0.7);
-  height: 70px;
-  width:auto;
-  position: relative;
-  margin-top: 0px;
-  text-align:left;
-}
-
-.servicesTextBox {
-  float:left;
-  width: 32.7%;
-  height:50px;
-  text-align: left;
-  padding-top:20px;  
-  h2 {
-    color: white;
-    text-transform:uppercase;
+    }
+    h2 {
+      font-family: aller_lightregular;
+      font-size: 21px;
+      font-weight: 200;
+      letter-spacing: 1.5px;
+      text-align:left;
+      padding-left:5px;
+      margin: 0px;
+    }
   }
-}
-
-.servicesTextBoxDashed {
-  float:left;
-  border-right: 1px dashed white;
-  border-left: 1px dashed white;
-  vertical-align:middle;
-  padding-top:20px;  
-  width: 33%;
-  height:50px;
-  text-align: left;
-  h2 {
-    color: white;
-    text-transform:uppercase;
+  .servicesTextBox {
+    float:left;
+    width: 32.7%;
+    height:50px;
+    text-align: left;
+    padding-top:20px;  
+    h2 {
+      color: white;
+      text-transform:uppercase;
+    }
   }
-}
-
-.servicesTextDetail {
-  width: 31%;
-  float:left;
-  text-align: justify;
-  padding-left: 10px;
-  padding-right:10px;
-  padding-top: 10px;
-}
-
-.servicesTextDetailDashed {
- border-right: 1px dashed gray;
- border-left: 1px dashed gray;
- float:left;
-  width: 32.2%;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.servicesContainer {
-  text-align:center;
-  margin-left: 20px;
-  width:920px;
-  height: 500px;
-
-}
-
-footer {
-  background-color: black;
-  display: block;
-  position: relative;
-  height: 30px;
-  text-align: right;
-  font-family: WebSymbols;
-  font-size: 20px;
-  color: #FF8B00;
-  padding-right: 40px;
-  padding-top: 10px;
-  letter-spacing: 10px;
+  .servicesTextBoxDashed {
+    float:left;
+    border-right: 1px dashed white;
+    border-left: 1px dashed white;
+    vertical-align:middle;
+    padding-top:20px;  
+    width: 33%;
+    height:50px;
+    text-align: left;
+    h2 {
+      color: white;
+      text-transform:uppercase;
+    }
+  }
+  .servicesTextDetail {
+    width: 31%;
+    float:left;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 10px;
+    border-left: 1px dashed gray;
+    h3 {
+      font-family: LeagueGothic;
+      text-transform: uppercase;
+      font-size: 20px; 
+      font-weight: 500;
+      color: #333333;
+      margin-top: 5px;
+      margin-bottom: -10px;
+    }
+    p {
+      font-family: verdana;
+      font-size: 11px;
+      color: black;
+      margin-bottom: 20px;
+    }
+    p.longBlurb {
+      display: none;
+    }
+  }
+  .servicesTextDetail.first {
+    border: none !important;
+  }
 }
