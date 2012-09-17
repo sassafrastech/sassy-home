@@ -78,16 +78,23 @@ header {
 /* main section */
 section.main { 
   /* section background and margins*/
-  background: url('aboutLeaf.png') no-repeat 50% 20px white;
+  background: url('aboutLeaf.png') no-repeat 52% 120px white;
   padding: 40px; 
   min-height: 450px; 
   
   /* two column layout */
   div.leftCol, div.rightCol { 
     display: inline-block; 
-    width: 25%; 
+    width: 25%;
     text-align: left; 
     vertical-align: top;
+  }
+  
+  div.leftCol {
+    margin-right: 60px;
+  }
+  div.rightCol {
+    margin-left: 60px;
   }
 }
 
