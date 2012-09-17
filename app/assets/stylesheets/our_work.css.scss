@@ -1,49 +1,55 @@
 .our_work {
-  section.main { 
-    text-align: left; 
+  section.main {
+    text-align: left;
+    
+    /* turn off watermark */
+    background-image: none;
 
     /* client rows */
     div.client {
 
       /* main image */
-      > img { 
-        width: 400px; 
-        height: 300px; 
-        border: 2px solid #aaa; 
+      > img {
+        width: 300px;
+        height: 225px;
+        border: 2px solid #aaa;
         float: left;
       }
       
       /* blurbs and vignettes */
       div.info {
-        margin-left: 424px;
-        
-        /* main text blurb */
-        > div.blurb { 
-          text-align: justify; 
-        }
-        
+        margin-left: 344px;
+       
         /* title */
         h2 {
+          font-family: LeagueGothicRegular; 
+          text-transform: uppercase;
+          font-size: 20pt;
           margin-top: 0;
+        }
+        
+        /* main text blurb */
+        > div.blurb {
+          text-align: justify;
         }
         
         /* 2 vignettes */
         div.vignettes {
-          margin-top: 20px; 
+          margin-top: 20px;
 
-          > div { 
-            display: inline-block; 
-            width: 350px; 
-            vertical-align: top; 
+          > div {
+            display: inline-block;
+            width: 350px;
+            vertical-align: top;
             margin-right: 20px;
           }
-          
+         
           /* vignette image */
-          img { 
+          img {
             width: 133px;
-            height: 100px; 
-            border: 1px solid #aaa; 
-            float: left; 
+            height: 100px;
+            border: 1px solid #aaa;
+            float: left;
             margin-right: 20px;
           }
         }

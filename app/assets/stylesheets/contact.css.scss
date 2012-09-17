@@ -1,7 +1,11 @@
 .contact {
   section.main {
     text-align: center;
-  
+    
+    h1 {
+      margin-top: 0;
+    }
+    
     form {
       width: 250px;
       font-family: AllerRegular, sans-serif;

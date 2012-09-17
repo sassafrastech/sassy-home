@@ -71,8 +71,8 @@ header {
 /* main section */
 section.main { 
   /* section background and margins*/
-  background: url('aboutLeaf.png') no-repeat 50% 20px white; 
-  padding: 20px; 
+  background: url('aboutLeaf.png') no-repeat 50% 20px white;
+  padding: 40px; 
   min-height: 450px; 
   
   /* two column layout */
@@ -113,8 +113,13 @@ a:hover {
 
 /* divider */
 div.divider {
+  height: 20px;
+  background: url("dividerTriangle.png") no-repeat center top;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  margin: 40px 100px 20px 100px;
+  
   > div { clear: both; height: 0; }
-  img { display: block; margin: 30px auto 20px auto; }
 }
 
 /* embedded fonts */
