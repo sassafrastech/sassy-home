@@ -1,20 +1,29 @@
 .contact {
   section.main {
     text-align: center;
-  }
   
-  section.main form {
-    width: 250px;
-    font-family: AllerRegular, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: bold;
-  }
+    form {
+      width: 250px;
+      font-family: AllerRegular, sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: bold;
+    }
   
-  section.main input {
-    width: 300px;
-    display: block;
-    border: 1px solid #999;
-    height: 25px;
+    input, textarea {
+      width: 300px;
+      display: block;
+      border: 1px solid #999;
+      margin: 0;
+      padding: 2px;
+    }
+    
+    input {
+      height: 25px;
+    }
+    
+    textarea {
+      height: 200px;
+    }
   }
 }
