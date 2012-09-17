@@ -1,20 +1,52 @@
 .about {
   
   /* gutters */
-  section.main > div { width: 60%; margin: 0 auto; }
+  section.main > div { 
+    width: 60%;
+    margin: 0 auto;
+  }
   
   /* tagline at top */
-  h1 { font-family: Georgia; font-size: 21px; color: gray; font-style: italic; text-align: center; 
-    font-weight: 100; padding-top: 30px; line-height: 30px; letter-spacing: 1.3px; }
+  h1 {
+    font-family: Georgia;
+    font-size: 21px;
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 30px;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+  }
     
   /* deeply */
-  h2 { color: #333333; text-align: center; }
+  h2 { 
+    color: #333333;
+    text-align: center;
+  }
   
-  div.blurb { text-align: justify; }
-  .aboutContainer { text-align: center; height: 300px; }
-  .personContainer { margin-right: 50px; margin-left: 50px; display: inline-block; text-align: center; vertical-align: top;
-    img { border: 2px solid black; }
-    h3 { margin: 2px; } 
-    p { }
+  div.blurb { 
+    text-align: justify;
+  }
+  
+  .aboutContainer { 
+    text-align: center;
+    height: 300px;
+  }
+  
+  .personContainer { 
+    margin-right: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    
+    img { 
+      border: 2px solid black;
+    }
+    
+    h3 { 
+      margin: 2px;
+    } 
   }
 }

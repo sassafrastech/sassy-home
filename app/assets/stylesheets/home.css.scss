@@ -1,57 +1,127 @@
 .home {
-  
+  /* no grey background like elsewhere */
   background-color: white !important;
   
-  header { background-color: white; background: none; }
-  nav a { 
-    color: #999999;
-  }
-  nav a:hover {
-    color: black;
-  }
+  /* header */
+  header { 
+    
+    background-color: white; 
+    background: none;
 
-  /* move footer up */
-  footer { margin-top: -80px; }
+    nav a { 
+      color: #999999;
+    }
 
+    nav a:hover {
+      color: black;
+    }
+  }
+  
+  /* main section */
   section.main {
-
     /* override background image */
     background: url('treeBg.png') repeat !important;
 
     /* other stuff */
-    height: 450px; text-align: right; margin-top: -20px; padding: 0 !important;
+    height: 450px; 
+    text-align: right; 
+    margin-top: -20px; 
+    padding: 0 !important;
 
-    /* header styles for section */
-    h1 { font-family: aller_lightregular; font-size: 38px; text-align: right; line-height: 40px; margin-top: 50px; margin-right: 30px;
-      margin-bottom: 10px; padding: 50px 10px 0px 0px; color: #333333;}
-    h2 { font-size: 16px; text-transform: uppercase; letter-spacing: 1.5px; }
-    h3 { font-size: 12px; }
-
-    /* make links gray but still orange hover */
-    a:link { text-decoration: none; color: #333333; }
-    a:hover, a *:hover { color: $linkColor; }
-  }
-
-  .greenText { color: #89B209; font-style: italic; }
-  .blueText { color: #18897E; font-style: italic; }
-  .bigLogo { position: absolute; top:160px; margin-left:-5px; z-index: 100; }
-  .lightGrayBox { background: rgba(102, 102, 102, 0.9); height: 140px; width:auto; position: relative; margin-top:100px; }
-  .textBox { 
-    font-family: aller_lightregular; 
-    float: right; 
-    margin: 0px 30px; 
-    padding-top: 5px; 
-    padding-right: 10px; 
-    color: white; 
-    text-align: center; 
-    width: 150px;
-    a { 
-      color: white;
+    /* big leaf thing */
+    .bigLogo { 
+      position: absolute; 
+      top: 160px; 
+      margin-left: -5px; 
+      z-index: 100; 
     }
-    a:hover { 
+
+    /* tag line */
+    h1 { 
+      font-family: aller_lightregular;
+      font-size: 38px;
+      text-align: right;
+      line-height: 40px;
+      margin: 50px 30px 10px 0;
+      padding: 50px 10px 0px 0px;
+      color: #333333;
+    }
+
+    .greenText { 
+      color: #89B209;
+      font-style: italic;
+    }
+
+    .blueText { 
+      color: #18897E;
+      font-style: italic;
+    }
+
+    /* 'read more' link */
+
+    a.readMoreLink { 
+      display: block;
+      color: #333333;
+      position: relative;
+      margin-right: 30px;
+      float: right;
+      width: 100px;
+      padding-right: 30px;
+    }
+
+    a.readMoreLink:hover, a.readMoreLink *:hover { 
       color: $linkColor;
     }
+
+    a.readMoreLink div { 
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 120px;
+      font-family: WebSymbols;
+      color: #666666;
+      margin-right: 45px;
+    }
+
+    /* services bar */
+
+    .services {
+      background: rgba(102, 102, 102, 0.9); 
+      height: 140px; 
+      width: auto; 
+      position: relative; 
+      margin-top: 100px;
+
+      a {
+        display: block;
+        font-family: aller_lightregular; 
+        float: right; 
+        margin: 0px 30px; 
+        padding-top: 5px; 
+        padding-right: 10px; 
+        color: white; 
+        text-align: center; 
+        width: 150px;
+
+        h2 { 
+          font-size: 16px; 
+          text-transform: uppercase; 
+          letter-spacing: 1.5px; 
+        }
+
+        h3 { 
+          font-size: 12px; 
+        }
+      }
+
+      a:hover {
+        color: $linkColor;
+      }
+    }
   }
-  .readMoreLink { display: block; position: relative; margin-right: 30px; float: right; width: 100px; padding-right: 30px; }
-  .readMoreLink div { position: absolute; top: 0; left: 0; width: 120px; font-family: WebSymbols; color: #666666; margin-right: 45px; }
+  
+  /* move footer up */
+  footer { 
+    margin-top: -80px; 
+  }
 }

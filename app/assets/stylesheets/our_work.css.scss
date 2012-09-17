@@ -1,17 +1,52 @@
 .our_work {
-  section.main { text-align: left; }
-  div.client {
-    > img { width: 400px; height: 300px; border: 2px solid #aaa; float: left; }
-    div.info {
-      margin-left: 424px;
-      > div.blurb { text-align: justify; }
-      h2 {
-        margin-top: 0;
+  section.main { 
+    text-align: left; 
+
+    /* client rows */
+    div.client {
+
+      /* main image */
+      > img { 
+        width: 400px; 
+        height: 300px; 
+        border: 2px solid #aaa; 
+        float: left;
       }
-      div.vignettes {
-        margin-top: 20px; 
-        > div { display: inline-block; width: 350px; vertical-align: top; margin: 0 20px 0 0; }
-        img { width: 133px; height: 100px; border: 1px solid #aaa; float: left; margin-right: 20px; }
+      
+      /* blurbs and vignettes */
+      div.info {
+        margin-left: 424px;
+        
+        /* main text blurb */
+        > div.blurb { 
+          text-align: justify; 
+        }
+        
+        /* title */
+        h2 {
+          margin-top: 0;
+        }
+        
+        /* 2 vignettes */
+        div.vignettes {
+          margin-top: 20px; 
+
+          > div { 
+            display: inline-block; 
+            width: 350px; 
+            vertical-align: top; 
+            margin-right: 20px;
+          }
+          
+          /* vignette image */
+          img { 
+            width: 133px;
+            height: 100px; 
+            border: 1px solid #aaa; 
+            float: left; 
+            margin-right: 20px;
+          }
+        }
       }
     }
   }
