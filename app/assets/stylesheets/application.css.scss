@@ -6,7 +6,7 @@
 /* HTML5 tags */
 header, section, footer, aside, nav, article, figure { display: block; }
 
-body { margin: 0px; padding: 0px; font-family: aller_lightregular; }
+body { margin: 0px; padding: 0px; font-family: aller_lightregular; background: #666; }
 
 /* banner */
 header { padding: 40px 0px 0px 40px; height: 120px; width: auto; background-image: url('bannerPrint.png'); background-repeat: repeat; }
@@ -20,7 +20,7 @@ nav a:link, nav a:visited { color: white; display: inline-block; height: 30px; p
 nav a:hover { color: black; }
 
 /* section background and margins*/
-section.main { background: url('aboutLeaf.png') no-repeat 50% 20px; padding: 20px; min-height: 450px; }
+section.main { background: url('aboutLeaf.png') no-repeat 50% 20px white; padding: 20px; min-height: 450px; }
 
 /* two column layout */
 section.main div.leftCol, section.main div.rightCol { display: inline-block; width: 25%; text-align: left; vertical-align: top; }
