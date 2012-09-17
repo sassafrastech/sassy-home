@@ -33,7 +33,10 @@ a:link { text-decoration: none; color:#FF8B00; }
 a:hover { color: #FF8B00; }
 
 /* divider */
-img.divider { margin: 10px 0; }
+div.divider {
+  br { clear: both; }
+  img { display: block; margin: 30px auto 10px auto; }
+}
 
 /*.contactLeft {
 	display:inline-block;
