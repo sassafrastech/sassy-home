@@ -7,7 +7,7 @@
 
     // hook up events
     (function(_this) {
-      $(".services p.shortBlurb a").click(function(e){ _this.show_long_blurb(e.target) })
+      $(".services p.shortBlurb a").click(function(e){ _this.show_long_blurb(e.target); return false; })
     })(this);
   }
   
