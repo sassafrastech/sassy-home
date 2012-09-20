@@ -23,6 +23,8 @@
     /* individual service */
     > div {
       
+      margin-bottom: 20px;
+      
       h3 {
         font-family: allerregular;
         font-size: 14px; 
@@ -30,11 +32,16 @@
         text-transform: uppercase;
         color: #333333;
         margin-top: 5px;
-        margin-bottom: -10px;
+        margin-bottom: 5px;
       }
       
       p {
-        margin-bottom: 20px;
+        margin: 0;
+        
+        /* more/less link */
+        a {
+          float: right;
+        }
       }
       
       p.longBlurb {

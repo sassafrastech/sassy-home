@@ -7,7 +7,7 @@
           <div>
             <h3><%= service[:name] %></h3>
             <p class="shortBlurb"><%= service[:short_blurb] %> <%= link_to("More...", "#") %></p>
-            <p class="longBlurb"><%= service[:long_blurb] %></p>
+            <p class="longBlurb"><%= service[:long_blurb] %> <%= link_to("Less...", "#") %></p>
           </div>
         <% end %>
       </td>
