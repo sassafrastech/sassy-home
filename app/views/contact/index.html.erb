@@ -5,13 +5,36 @@
 </div>
 
 <div class="rightCol">
-  <%= form_tag("/send", :method => "get") do %>
-    <%= label_tag(:name, "Name:") %><br/> 
-    <%= text_field_tag(:name, '') %><br/>
-    <%= label_tag(:email, "Email:") %><br/>
-    <%= text_field_tag(:email,'') %><br/>
-    <%= label_tag(:message, "Message:") %><br/>
-    <%= text_area_tag(:message, '', :size => "40x15") %><br/>
-    <%= submit_tag("Send Message") %>
+    <div class="notice">
+        <% if flash[:error] %>
+          <p class="error"><%= flash[:error] %> </p>
+        <% end %>
+   
+        <% if flash[:notice] %>
+                <p class="success"><%= flash[:notice] %></p>
+        <% end %>
+    </div>
+    
+  <%= form_for @message, :url => contact_path do |form| %>
+    <fieldset class="fields">
+      <div class="field">
+        <%= form.label :name %>
+        <%= form.text_field :name %>
+      </div>
+
+      <div class="field">
+        <%= form.label :email %>
+        <%= form.text_field :email %>
+      </div>
+      
+      <div class="field">
+        <%= form.label :body %>
+        <%= form.text_area :body %>
+      </div>
+    </fieldset>
+
+    <fieldset class="actions">
+      <%= form.submit "Send" %>
+    </fieldset>
   <% end %>
 </div>
