@@ -35,9 +35,9 @@ module ServicesHelper
           :long_blurb =>  "An expert review is a quick and inexpensive way to greatly improve the usability of your site or app. An expert review relies on the usability savvy of experts here at Sassafras—our time-tested knowledge of usability best practices and industry standards—to identify usability issues and recommend solutions. We employ two industry-standard techniques in your review: the heuristic evaluation and the cognitive walkthrough."
         },{
           :name =>        "Interaction Design",
-          :short_blurb => "Any site or app is only as good as its interaction design–if it's not easy, delightful, and effective, then it won't be successful.",
+          :short_blurb => "Any site or app is only as good as its interaction design—if it's not easy, delightful, and effective, then it won't be successful.",
           
-          :long_blurb =>  "Any site or app is only as good as its interaction design–if it's not easy, delightful, and effective, then it won't be successful. In our design process, we craft key usage scenarios, build an information architecture, and produce screen flow wireframes to ensure a rich experience. We also use our extensive knowledge of human-centered computing research and best practice to make your design useful and innovative."
+          :long_blurb =>  "Any site or app is only as good as its interaction design—if it's not easy, delightful, and effective, then it won't be successful. In our design process, we craft key usage scenarios, build an information architecture, and produce screen flow wireframes to ensure a rich experience. We also use our extensive knowledge of human-centered computing research and best practice to make your design useful and innovative."
         },{
           :name =>        "Graphic Design",
           :short_blurb => "We have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your site or app.",
