@@ -1,5 +1,5 @@
-Name: <%= @message.name %>
+Name: <%= raw(@message.name) %>
 
-Email: <%= @message.email %>
+Email: <%= raw(@message.email) %>
 
-Body: <%= @message.body %>
+Body: <%= raw(@message.body) %>
