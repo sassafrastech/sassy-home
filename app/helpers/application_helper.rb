@@ -22,4 +22,11 @@ module ApplicationHelper
   def is_active?(link)
     params[:controller] == link.to_s ? "active" : nil
   end
+  
+  def make_title
+    title = "Sassafras Tech Collective"
+    active_menu = get_active_menu_item
+    title += " - #{active_menu}" unless active_menu.blank?
+    title
+  end
 end
