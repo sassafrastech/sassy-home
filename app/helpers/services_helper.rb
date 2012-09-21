@@ -27,28 +27,25 @@ module ServicesHelper
         }
       ]
     },{
-      :name => "Interaction Design",
+      :name => "User Experience Design",
       :services => [
         {
           :name =>        "Expert Review",
           :short_blurb => "An expert review is a quick and inexpensive way to greatly improve the usability of your site or app. ",
           :long_blurb =>  "An expert review is a quick and inexpensive way to greatly improve the usability of your site or app. An expert review relies on the usability savvy of experts here at Sassafras—our time-tested knowledge of usability best practices and industry standards—to identify usability issues and recommend solutions. We employ two industry-standard techniques in your review: the heuristic evaluation and the cognitive walkthrough."
         },{
-          :name =>        "Usability Testing",
-          :short_blurb => "Full usability testing is the next step in interaction design.",
-          :long_blurb =>  "Full usability testing is the next step in interaction design. In a usability test, we bring typical test users into our usability lab and get them to use your site or app. We use industry-standard techniques, including videotaping, think-aloud studies, interviews, and A/B testing to gain a deep understanding of how an average person interacts with your system. We then recommend areas for improvement."
-        },{
-          :name =>        "Information Architecture",
-          :short_blurb => "The organization and layout of information and data in your site or app is crucial to a painless, satisfying user experience.",
-          :long_blurb =>  "The organization and layout of information and data in your site or app is crucial to a painless, satisfying user experience. We can work with you to elucidate and catalog all the important content that your site or app needs to present, and recommend the optimal structure for that information. We use industry-standard techniques such as card sorts and design patterns to this end."
-        },{
-          :name =>        "Wireframing and Prototyping",
-          :short_blurb => "Building a prototype is a great way to inform design decisions about your site or app, especially when it comes to usability.",
-          :long_blurb =>  "As with most forms of design, building a prototype is a great way to inform design decisions about your site or app, especially when it comes to usability. We can construct low- and high-fidelity prototypes of your system and subject them to the usability techniques discussed above. This ensures that your site or app will be perfectly usable right out of the box."
+          :name =>        "Interaction Design",
+          :short_blurb => "Any site or app is only as good as its interaction design–if it's not easy, delightful, and effective, then it won't be successful.",
+          
+          :long_blurb =>  "Any site or app is only as good as its interaction design–if it's not easy, delightful, and effective, then it won't be successful. In our design process, we craft key usage scenarios, build an information architecture, and produce screen flow wireframes to ensure a rich experience. We also use our extensive knowledge of human-centered computing research and best practice to make your design useful and innovative."
         },{
           :name =>        "Graphic Design",
-          :short_blurb => "We have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your product.",
-          :long_blurb =>  "Research has shown that the aesthetics of a site or app can be just as important as its structure or interactivity in determining overall usability and visitor satisfaction. At Sassafras, we have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your product. We provide logo and identity design services as well as overall site template design. Take a look at our work to see for yourself."
+          :short_blurb => "We have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your site or app.",
+          :long_blurb =>  "We have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your site or app. Research has shown that the aesthetics of a site or app can be just as important as its structure or interactivity in determining overall usability and visitor satisfaction. At Sassafras, we have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your site or app. We provide logo and identity design services as well as overall site template design."
+        },{
+          :name =>        "Usability Testing",
+          :short_blurb => "Full usability testing is the next step in interaction design.",
+          :long_blurb =>  "Full usability testing is the next step in interaction design. In a usability test, we bring typical test users into a usability lab and get them to use your site or app. We use industry-standard techniques, including videotaping, think-aloud studies, interviews, and A/B testing to gain a deep understanding of how an average person interacts with your system. We then recommend areas for improvement."
         }
       ]
     },{
