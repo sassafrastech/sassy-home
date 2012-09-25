@@ -1,4 +1,12 @@
 $linkColor: #FF8B00;
+
+.attrib {
+  font-size: 10px;
+  font-color: gray;
+  margin-top: 70px; 
+  margin-right: 2px;
+}
+
 .home {
   /* no grey background like elsewhere */
   background-color: white !important;
@@ -17,6 +25,7 @@ $linkColor: #FF8B00;
       color: black;
     }
   }
+
   
   /* main section */
   section.main {
@@ -47,14 +56,8 @@ $linkColor: #FF8B00;
       padding: 50px 10px 0px 0px;
       color: #333333;
     }
-    
-    h3 {
-      font-family: aller_lightregular;
-      font-size:10px;
-      margin-top:70px;
-      color:gray;
-    }
 
+    
     .greenText { 
       color: #89B209;
       font-style: italic;
