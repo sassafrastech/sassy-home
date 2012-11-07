@@ -19,7 +19,7 @@ h1, h2, h3 {
 }
 
 /* banner */
-header { 
+div.banner { 
   padding: 40px 0px 0px 40px; 
   height: 120px; 
   width: auto; 
@@ -40,7 +40,7 @@ header {
     color: #333;
   }
 
-  nav { 
+  div.nav { 
     float: right; 
     font-family: LeagueGothicRegular; 
     font-weight: 400;
@@ -76,7 +76,7 @@ header {
 }
 
 /* main section */
-section.main { 
+div.main { 
   /* section background and margins*/
   background: url('aboutLeaf.png') no-repeat 52% 120px white;
   padding: 40px; 
@@ -99,7 +99,7 @@ section.main {
 }
 
 /* footer */
-footer {
+div.footer {
   background-color: black;
   display: block;
   position: relative;

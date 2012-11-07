@@ -24,30 +24,30 @@
 </head>
 <body class="<%= params[:controller] %>">
 
-  <header id="banner" class="body">
+  <div class="banner">
     <div class="bannerLogo">
       <a href="/home/">
         <%= image_tag((is_active?(:home) ? "logo.png" : "logo2.png"), :class => "banner") %>
       </a>
       <div class="breadcrumb"><%= get_active_menu_item %></div>
     </div>
-    <nav>
+    <div class="nav">
       <ul>
         <% get_menu.each do |m| %>
           <li><%= link_to(m[:name], "/#{m[:link]}", :class => is_active?(m[:link])) %></li>
         <% end %>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </div>
 
-  <section class="main">
+  <div class="main">
     <%= yield %>
     <div class="clearer"></div>
-  </section>
+  </div>
   
-  <footer>
+  <div class="footer">
     <%= link_to "t", "http://twitter.com/sassafrastech" %><%= link_to "@", "mailto:info@sassafrastech.com" %>
-  </footer>
+  </div>
 
 </body>
 </html>

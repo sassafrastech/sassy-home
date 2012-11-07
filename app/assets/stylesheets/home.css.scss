@@ -4,7 +4,7 @@ $linkColor: #FF8B00;
   font-size: 10px;
   font-color: gray;
   margin-top: 70px; 
-  margin-right: 2px;
+  margin-right: 5px;
 }
 
 .home {
@@ -12,23 +12,23 @@ $linkColor: #FF8B00;
   background-color: white !important;
   
   /* header */
-  header { 
+  div.banner { 
     
     background-color: white; 
     background: none;
 
-    nav a { 
+    div.nav a { 
       color: #999999;
     }
 
-    nav a:hover {
+    div.nav a:hover {
       color: black;
     }
   }
 
   
   /* main section */
-  section.main {
+  div.main {
     /* override background image */
     background: url('treeBg.png') repeat !important;
 
@@ -132,7 +132,7 @@ $linkColor: #FF8B00;
   }
   
   /* move footer up */
-  footer { 
+  div.footer { 
     margin-top: -80px; 
   }
 }
