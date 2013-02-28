@@ -6,6 +6,10 @@
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  
+  <% if is_active?(:home) %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <% end %>
 
   <%# force favicon refresh %>
   <link rel="shortcut icon" href="/favicon.ico?v=2" />
