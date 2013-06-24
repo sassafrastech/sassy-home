@@ -104,7 +104,7 @@ $linkColor: #FF8B00;
       margin-top: 110px;
 
       a {
-        display: block;
+        display: inline-block;
         font-family: aller_lightregular; 
         float: right; 
         margin: 0px 30px; 
@@ -136,3 +136,5 @@ $linkColor: #FF8B00;
     margin-top: -80px; 
   }
 }
+
+
