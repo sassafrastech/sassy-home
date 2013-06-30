@@ -72,7 +72,7 @@ module ServicesHelper
         },{
           :name =>        "Hosting and Maintenance",
           :short_blurb => "We can get your site and running in a secure, reliable fashion and ensure that it is always available.",
-          :long_blurb =>  "We can work with leading hosting providers to get your site or app up and running in a secure, reliable fashion. This includes domain name consultation and purchasing, virtual hosting, dedicated hosting, DNS customization, Google Apps support, and email account management. We also provide on-call site maintenance and automated site issue detection to ensure that your site is always available."
+          :long_blurb =>  "We can work with leading hosting providers to get your site or app up and running in a secure, reliable, scalable, and budget-appropriate fashion. This includes domain name consultation and purchasing, cloud hosting/PaaS, shared hosting, Google Apps support, and email account management. We also provide on-call site maintenance and automated site issue detection to ensure that your site is always available."
         }
       ]
     }
