@@ -46,8 +46,8 @@ module ServicesHelper
           :long_blurb =>  "We have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your site or app. Research has shown that the aesthetics of a site or app can be just as important as its structure or interactivity in determining overall usability and visitor satisfaction. At Sassafras, we have the graphic design skills and the aesthetic sensibilities necessary to ensure your visitors look forward to using your site or app. We provide logo and identity design services as well as overall site template design."
         },{
           :name =>        "Usability Testing",
-          :short_blurb => "Full usability testing is the next step in interaction design.",
-          :long_blurb =>  "Full usability testing is the next step in interaction design. In a usability test, we bring typical test users into a usability lab and get them to use your site or app. We use industry-standard techniques, including videotaping, think-aloud studies, interviews, and A/B testing to gain a deep understanding of how an average person interacts with your system. We then recommend areas for improvement."
+          :short_blurb => "Understand how people use your technology.",
+          :long_blurb =>  "Understand how people use your technology. In a usability test, we bring typical test users into a lab and get them to use your site or app. We use industry-standard techniques, including videotaping, think-aloud studies, interviews, and A/B testing to gain a deep understanding of how an average person interacts with your system. We can also offer lean usability testing techniques for smaller budgets. We then recommend areas for improvement."
         }
       ]
     },{
@@ -56,7 +56,7 @@ module ServicesHelper
         {
           :name =>        "Custom Web Applications",
           :short_blurb => "We build your web application from scratch using the latest open-source web framework and database technologies.",
-          :long_blurb =>  "We build your web application from scratch using the latest open-source web framework technologies including Ruby on Rails, Django, and Symfony, and databases including MySQL, SQLite, and MongoDB. We have experience with mission-critical, well-trafficked apps and large databases. We can help you choose the right technologies for your project and deliver a fast, secure, scalable, and maintainable system."
+          :long_blurb =>  "We build your web application from scratch using the latest open-source web framework technologies Ruby on Rails and Ember.js. We have experience with mission-critical, well-trafficked apps. We can help you choose the right technologies for your project and deliver a fast, secure, scalable, and maintainable system."
         },{
           :name =>        "Mobile Apps",
           :short_blurb => "We create high quality mobile applications for Android, iOS, and other platforms.",
@@ -64,7 +64,7 @@ module ServicesHelper
         },{
           :name =>        "Rich Web Interactivity",
           :short_blurb => "We use the latest technologies to provide a rich interactive experience with your site.",
-          :long_blurb =>  "Web interactivity is not only eye-catching and impactful, it can also be essential for your site’s usability and user satisfaction. We use the latest technologies including HTML5, AJAX, and Comet to provide a rich interactive experience with your site. This includes everything from basic animations to dynamic content creation and editing, mashup support, multimedia content embedding, and live communication."
+          :long_blurb =>  "Web interactivity is not only eye-catching and impactful, it can also be essential for your site’s usability and user satisfaction. We use industry standard technologies including HTML5, AJAX, and WebSockets to provide a rich interactive experience with your site. This includes everything from basic animations to dynamic content creation and editing, multimedia content embedding, and live communication."
         },{
           :name =>        "Content Management Systems (CMS)",
           :short_blurb => "We can create a customized CMS-driven site that will enable you to create and edit your own content.",
