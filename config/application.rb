@@ -49,7 +49,7 @@ module SassSite
     config.action_mailer.smtp_settings = {
       :address              => "smtp.webfaction.com",
       :port                 =>  587,
-      :domain               =>  "sassafrastech.com",
+      :domain               =>  "sassafras.coop",
       :user_name            =>  "sassafrastech",
       :password             =>  "revolutionstartsathome",
       :authentication       =>  :plain,
@@ -57,7 +57,7 @@ module SassSite
     }
     
     config.action_mailer.default_url_options = {
-      :host => "sassafrastech.com"
+      :host => "sassafras.coop"
     }
   end
 end
