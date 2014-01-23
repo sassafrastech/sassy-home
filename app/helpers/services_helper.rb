@@ -38,7 +38,6 @@ module ServicesHelper
         },{
           :name =>        "Interaction Design",
           :short_blurb => "Any site or app is only as good as its interaction design—if it's not easy, delightful, and effective, then it won't be successful.",
-
           :long_blurb =>  "Any site or app is only as good as its interaction design—if it's not easy, delightful, and effective, then it won't be successful. In our design process, we craft key usage scenarios, build an information architecture, and produce screen flow wireframes to ensure a rich experience. We also use our extensive knowledge of human-centered computing research and best practice to make your design useful and innovative."
         },{
           :name =>        "Graphic Design",
@@ -47,7 +46,7 @@ module ServicesHelper
         },{
           :name =>        "Usability Testing",
           :short_blurb => "Understand how people use your technology.",
-          :long_blurb =>  "Understand how people use your technology. In a usability test, we bring typical test users into a lab and get them to use your site or app. We use industry-standard techniques, including videotaping, think-aloud studies, interviews, and A/B testing to gain a deep understanding of how an average person interacts with your system. We can also offer lean usability testing techniques for smaller budgets. We then recommend areas for improvement."
+          :long_blurb =>  "Understand how people use your technology. In a usability test, we bring typical test users into a lab and get them to use your site or app. We use industry-standard techniques, including video recording, think-aloud studies, interviews, and A/B testing to gain a deep understanding of how an average person interacts with your system. We can also offer lean usability testing techniques for smaller budgets. We then recommend areas for improvement."
         }
       ]
     },{
@@ -56,7 +55,7 @@ module ServicesHelper
         {
           :name =>        "Custom Web Applications",
           :short_blurb => "We build your web application from scratch using the latest open-source web framework and database technologies.",
-          :long_blurb =>  "We build your web application from scratch using the latest open-source web framework technologies Ruby on Rails and Ember.js. We have experience with mission-critical, well-trafficked apps. We can help you choose the right technologies for your project and deliver a fast, secure, scalable, and maintainable system."
+          :long_blurb =>  "We build your web application from scratch using the latest open-source web framework technologies such as Ruby on Rails and Ember.js. We have experience with mission-critical, well-trafficked apps. We can help you choose the right technologies for your project and deliver a fast, secure, scalable, and maintainable system."
         },{
           :name =>        "Mobile Apps",
           :short_blurb => "We create high quality mobile applications for Android, iOS, and other platforms.",
