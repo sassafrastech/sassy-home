@@ -1,11 +1,11 @@
 .about {
-  
+
   /* gutters */
-  div.main > div { 
+  div.main > div {
     width: 60%;
     margin: 0 auto;
   }
-  
+
   /* tagline at top */
   h1 {
     font-family: Georgia;
@@ -18,39 +18,39 @@
     line-height: 30px;
     letter-spacing: 1.3px;
   }
-    
+
   /* deeply */
-  h2 { 
+  h2 {
     color: #333333;
     text-align: center;
     margin:50px 0px;
   }
-  
-  div.blurb { 
+
+  div.blurb {
     text-align: justify;
     margin-bottom:100px;
   }
-  
-  .aboutContainer { 
+
+  .aboutContainer {
     text-align: center;
     height: 300px;
   }
-  
-  .personContainer { 
+
+  .personContainer {
     margin-right: 50px;
     margin-left: 50px;
     display: inline-block;
     text-align: center;
     vertical-align: top;
-    
-    img { 
+
+    img {
       border: 2px solid black;
     }
-    
-    h3 { 
+
+    h3 {
       margin: 2px;
-    } 
-    
+    }
+
     p {
       font-size: 10pt;
       line-height: 120%;

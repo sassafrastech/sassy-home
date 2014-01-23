@@ -9,12 +9,12 @@
         <% if flash[:error] %>
           <p class="error"><%= flash[:error] %> </p>
         <% end %>
-   
+
         <% if flash[:notice] %>
                 <p class="success"><%= flash[:notice] %></p>
         <% end %>
     </div>
-    
+
   <%= form_for @message, :url => contact_path do |form| %>
     <fieldset class="fields">
       <div class="field">
@@ -26,7 +26,7 @@
         <%= form.label :email %>
         <%= form.text_field :email %>
       </div>
-      
+
       <div class="field">
         <%= form.label :body %>
         <%= form.text_area :body %>

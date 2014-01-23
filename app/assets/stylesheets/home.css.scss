@@ -3,21 +3,21 @@ $linkColor: #FF8B00;
 .attrib {
   font-size: 10px;
   font-color: gray;
-  margin-top: 70px; 
+  margin-top: 70px;
   margin-right: 5px;
 }
 
 .home {
   /* no grey background like elsewhere */
   background-color: white !important;
-  
+
   /* header */
-  div.banner { 
-    
-    background-color: white; 
+  div.banner {
+
+    background-color: white;
     background: none;
 
-    div.nav a { 
+    div.nav a {
       color: #999999;
     }
 
@@ -26,28 +26,28 @@ $linkColor: #FF8B00;
     }
   }
 
-  
+
   /* main section */
   div.main {
     /* override background image */
     background: url('treeBg.png') repeat !important;
 
     /* other stuff */
-    height: 450px; 
-    text-align: right; 
-    margin-top: -20px; 
+    height: 450px;
+    text-align: right;
+    margin-top: -20px;
     padding: 0 !important;
 
     /* big leaf thing */
-    .bigLogo { 
-      position: absolute; 
-      top: 160px; 
-      margin-left: -5px; 
-      z-index: 100; 
+    .bigLogo {
+      position: absolute;
+      top: 160px;
+      margin-left: -5px;
+      z-index: 100;
     }
 
     /* tag line */
-    h1 { 
+    h1 {
       font-family: aller_lightregular;
       font-size: 38px;
       text-align: right;
@@ -57,20 +57,20 @@ $linkColor: #FF8B00;
       color: #333333;
     }
 
-    
-    .greenText { 
+
+    .greenText {
       color: #89B209;
       font-style: italic;
     }
 
-    .blueText { 
+    .blueText {
       color: #18897E;
       font-style: italic;
     }
 
     /* 'read more' link */
 
-    a.readMoreLink { 
+    a.readMoreLink {
       display: block;
       color: #333333;
       position: relative;
@@ -80,11 +80,11 @@ $linkColor: #FF8B00;
       padding-right: 30px;
     }
 
-    a.readMoreLink:hover, a.readMoreLink *:hover { 
+    a.readMoreLink:hover, a.readMoreLink *:hover {
       color: $linkColor;
     }
 
-    a.readMoreLink div { 
+    a.readMoreLink div {
       position: absolute;
       top: 0;
       left: 0;
@@ -97,43 +97,43 @@ $linkColor: #FF8B00;
     /* services bar */
 
     .services {
-      background: rgba(102, 102, 102, 0.9); 
-      height: 140px; 
-      width: auto; 
-      position: relative; 
+      background: rgba(102, 102, 102, 0.9);
+      height: 140px;
+      width: auto;
+      position: relative;
       margin-top: 110px;
 
       a {
         display: inline-block;
-        font-family: aller_lightregular; 
-        float: right; 
-        margin: 0px 30px; 
-        padding-top: 5px; 
-        padding-right: 10px; 
-        text-align: center; 
+        font-family: aller_lightregular;
+        float: right;
+        margin: 0px 30px;
+        padding-top: 5px;
+        padding-right: 10px;
+        text-align: center;
         color: white;
         width: 180px;
         font-size: 11pt;
         line-height: 130%;
 
-        strong { 
-          font-size: 16px; 
-          text-transform: uppercase; 
+        strong {
+          font-size: 16px;
+          text-transform: uppercase;
           letter-spacing: 1.5px;
           display: block;
-          margin: 15px 0; 
+          margin: 15px 0;
         }
       }
-      
+
       a:hover {
         color: $linkColor;
       }
     }
   }
-  
+
   /* move footer up */
-  div.footer { 
-    margin-top: -80px; 
+  div.footer {
+    margin-top: -80px;
   }
 }
 

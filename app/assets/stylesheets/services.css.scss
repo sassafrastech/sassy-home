@@ -6,7 +6,7 @@
     padding: 0 20px 20px 20px;
     border-left: 1px dashed gray;
     vertical-align: top;
-    
+
     /* category heading */
     h2 {
       margin: 0 0 10px 0;
@@ -19,52 +19,52 @@
       background-position: -5px 0;
       background-repeat: no-repeat;
     }
-    
+
     /* individual service */
     > div {
-      
+
       margin-bottom: 20px;
-      
+
       h3 {
         font-family: allerregular;
-        font-size: 14px; 
+        font-size: 14px;
         font-weight: bold;
         text-transform: uppercase;
         color: #333333;
         margin-top: 5px;
         margin-bottom: 5px;
       }
-      
+
       p {
         margin: 0;
-        
+
         /* more/less link */
         a {
           float: right;
         }
       }
-      
+
       p.longBlurb {
         display: none;
       }
     }
-    
+
   }
 
   /* no border on first category */
   .category0 {
     border: none !important;
   }
-  
+
   /* different color logos */
   .category0 h2 {
     background-image: url("logoBlue.png");
   }
-  
+
   .category1 h2 {
     background-image: url("logoGreen.png");
   }
-  
+
   .category2 h2 {
     background-image: url("logoOrange.png");
   }

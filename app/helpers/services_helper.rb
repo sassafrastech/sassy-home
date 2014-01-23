@@ -5,7 +5,7 @@ module ServicesHelper
   def services_by_category
     SERVICES_BY_CATEGORY
   end
-  
+
   SERVICES_BY_CATEGORY = [
     {
       :name => "Research",
@@ -38,7 +38,7 @@ module ServicesHelper
         },{
           :name =>        "Interaction Design",
           :short_blurb => "Any site or app is only as good as its interaction design—if it's not easy, delightful, and effective, then it won't be successful.",
-          
+
           :long_blurb =>  "Any site or app is only as good as its interaction design—if it's not easy, delightful, and effective, then it won't be successful. In our design process, we craft key usage scenarios, build an information architecture, and produce screen flow wireframes to ensure a rich experience. We also use our extensive knowledge of human-centered computing research and best practice to make your design useful and innovative."
         },{
           :name =>        "Graphic Design",
