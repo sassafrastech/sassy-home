@@ -9,13 +9,14 @@ $linkColor: #FF8B00;
 
 .home {
   /* no grey background like elsewhere */
-  background-color: white !important;
+  background-color: white;
 
   /* header */
   div.banner {
 
     background-color: white;
     background: none;
+    height: 140px;
 
     div.nav a {
       color: #999999;
@@ -26,16 +27,21 @@ $linkColor: #FF8B00;
     }
   }
 
+  .main {
+    background: rgb(102,102,102);
+    background: transparent;
+    overflow: auto;
+    padding: 0;
+  }
 
   /* main section */
-  div.main {
+  .mainContent {
     /* override background image */
     background: url('treeBg.png') repeat !important;
 
     /* other stuff */
     height: 450px;
     text-align: right;
-    margin-top: -20px;
     padding: 0 !important;
 
     /* big leaf thing */
@@ -52,7 +58,7 @@ $linkColor: #FF8B00;
       font-size: 38px;
       text-align: right;
       line-height: 45px;
-      margin: 50px 30px 10px 0;
+      margin: 0px 30px 10px 0;
       padding: 50px 10px 0px 0px;
       color: #333333;
     }
@@ -97,11 +103,12 @@ $linkColor: #FF8B00;
     /* services bar */
 
     .services {
-      background: rgba(102, 102, 102, 0.9);
+      background: rgba(82,82,82,0.9);
       height: 140px;
       width: auto;
       position: relative;
       margin-top: 110px;
+      display: block;
 
       a {
         display: inline-block;
@@ -131,10 +138,53 @@ $linkColor: #FF8B00;
     }
   }
 
-  /* move footer up */
-  div.footer {
-    margin-top: -80px;
+  /* secondary content */
+  .connectHome {
+    background: #373737;
+    margin: 0px auto;
+    padding: 2%;
+    overflow: auto;
+    width: auto;
+    height: auto;
+    text-align: left;
+    display: block;
+    position: relative;
+    color: white;
+    clear: both;
+
+    .connectSection {
+      width: 80%;
+      float: left;
+      background: inherit;
+      margin: 0 auto;
+      padding: 1% 1% 5% 1%;
+
+      @media screen and (min-width: 1100px) {
+        width: 30%;
+        padding: 1%;
+
+        &.contact {
+          padding-left: 5%;
+          width: 25%;
+        }
+      }
+
+      h1 {
+        margin: 10px 0 20px 0;
+        padding: 0;
+        text-align: left;
+        color: #86B2B2;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+
+      .icons {
+        font-size: 24px;
+        color: $linkColor;
+        letter-spacing: 1.5px;
+        margin: 0;
+      }
+    }
   }
 }
-
-

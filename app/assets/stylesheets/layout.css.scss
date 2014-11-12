@@ -1,5 +1,8 @@
 /* variables */
 $linkColor: #FF8B00;
+$lightGray: rgb(73,73,73);
+$darkGray: rgb(35,35,35);
+$gray1: rgb(102,102,102);
 
 /* HTML5 tags */
 header, section, footer, aside, nav, article, figure { display: block; }
@@ -101,17 +104,13 @@ div.main {
 
 /* footer */
 div.footer {
-  background-color: black;
+  background-color: $darkGray;
   display: block;
   position: relative;
-  height: 30px;
-  text-align: right;
-  font-family: WebSymbols;
-  font-size: 18px;
-  color: $linkColor;
-  padding-right: 40px;
-  padding-top: 5px;
-  letter-spacing: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: $lightGray;
+  padding: 5px 40px;
   clear: both;
 }
 
