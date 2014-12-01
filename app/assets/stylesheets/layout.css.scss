@@ -8,6 +8,11 @@ $gray1: rgb(102,102,102);
 header, section, footer, aside, nav, article, figure { display: block; }
 
 /* general body stuff */
+
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0px;
   padding: 0px;
