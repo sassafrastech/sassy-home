@@ -32,28 +32,57 @@
   }
 
   .aboutContainer {
-    text-align: center;
-    height: 300px;
+    text-align: left;
+    height: auto;
+    background: rgb(211,211,211);
+    overflow: hidden;
+    padding: 2%;
+
+    h2 {
+      font-size: 28px;
+      padding: 2% 1%;
+      margin: 0;
+    }
   }
 
   .personContainer {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 2%;
     display: inline-block;
     text-align: center;
     vertical-align: top;
+    width: 29%;
 
-    img {
-      border: 2px solid black;
+    @media screen and (max-width:900px) {
+      width: 45.5%;
+      margin: 2%;
     }
 
-    h3 {
-      margin: 2px;
+    @media screen and (max-width:600px) {
+      width: 90%;
+      margin: 3% 5%;
+    }
+
+    img {
+      border-radius: 80px;
+      height: 150px;
+    }
+
+    h3, h6 {
+      margin: 0px;
     }
 
     p {
       font-size: 10pt;
       line-height: 120%;
+
+      &.bio {
+        text-align: justify;
+      }
     }
+
+    a .fa {
+      font-size: 25px;
+    }
+
   }
 }
