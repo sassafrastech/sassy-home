@@ -1,16 +1,13 @@
-<table>
-  <tr>
-    <% services_by_category.each_with_index do |category, idx| %>
-      <td class="category category<%= idx %>">
-        <h2><%= category[:name] %></h2>
-        <% category[:services].each do |service| %>
-          <div>
-            <h3><%= service[:name] %></h3>
-            <p class="shortBlurb"><%= service[:short_blurb] %> <%= link_to("More...", "#") %></p>
-            <p class="longBlurb"><%= service[:long_blurb] %> <%= link_to("Less...", "#") %></p>
-          </div>
-        <% end %>
-      </td>
-      <% end %>
-  </tr>
-</table>
+
+<% services_by_category.each_with_index do |category, idx| %>
+  <div class="category category<%= idx %>">
+    <h2><%= category[:name] %></h2>
+    <% category[:services].each do |service| %>
+      <div>
+        <h3><%= service[:name] %></h3>
+        <p class="shortBlurb"><%= service[:short_blurb] %> <%= link_to("More...", "#") %></p>
+        <p class="longBlurb"><%= service[:long_blurb] %> <%= link_to("Less...", "#") %></p>
+      </div>
+    <% end %>
+  </div>
+<% end %>

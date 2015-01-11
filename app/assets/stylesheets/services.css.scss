@@ -1,11 +1,38 @@
 .services {
+
+  div.main {
+    padding: 40px 0;
+  }
+
   .category {
     /*background: rgba(27, 27, 25, 0.7); */
-    width: 25%;
+    width: 100%;
     text-align: justify;
-    padding: 0 20px 20px 20px;
-    border-left: 1px dashed gray;
+    padding: 10px 15px 20px;
     vertical-align: top;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 701px) and (max-width:1000px) {
+      width: 50%;
+      float: left;
+
+      &.category1 {
+        border-left: 1px dashed gray;
+      }
+
+      &.category2 {
+        clear: left;
+      }
+    }
+
+    @media screen and (min-width:1001px) {
+      width: 33%;
+      float: left;
+
+      &.category1, &.category2 {
+        border-left: 1px dashed gray;
+      }
+    }
 
     /* category heading */
     h2 {
@@ -18,6 +45,19 @@
       height: 40px;
       background-position: -5px 0;
       background-repeat: no-repeat;
+    }
+
+    /* different color logos */
+    &.category0 h2 {
+      background-image: url("logoBlue.png");
+    }
+
+    &.category1 h2 {
+      background-image: url("logoGreen.png");
+    }
+
+    &.category2 h2 {
+      background-image: url("logoOrange.png");
     }
 
     /* individual service */
@@ -49,23 +89,5 @@
       }
     }
 
-  }
-
-  /* no border on first category */
-  .category0 {
-    border: none !important;
-  }
-
-  /* different color logos */
-  .category0 h2 {
-    background-image: url("logoBlue.png");
-  }
-
-  .category1 h2 {
-    background-image: url("logoGreen.png");
-  }
-
-  .category2 h2 {
-    background-image: url("logoOrange.png");
   }
 }
