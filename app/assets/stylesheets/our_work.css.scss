@@ -7,6 +7,7 @@
 
     /* client rows */
     div.client {
+      overflow-y: auto;
 
       /* main image */
       > img {
@@ -57,6 +58,34 @@
           }
         }
       }
+    }
+  }
+
+  @media screen and (max-width:900px) {
+    div.main {
+      padding: 20px;
+
+      div.client {
+
+        > img {
+          float: none;
+        }
+
+        div.info {
+          margin-left: 0;
+          clear: left;
+          margin-top: 20px;
+
+          div.vignettes > div {
+            width: auto;
+            height: 150px;
+          }
+        }
+      }
+    }
+
+    div.divider {
+      margin: 40px 0 20px;
     }
   }
 }
