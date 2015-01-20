@@ -47,7 +47,7 @@ $linkColor: #FF8B00;
     /* big leaf thing */
     .bigLogo {
       position: absolute;
-      top: 160px;
+      top: 165px;
       margin-left: -5px;
       z-index: 100;
     }
@@ -184,6 +184,84 @@ $linkColor: #FF8B00;
         color: $linkColor;
         letter-spacing: 1.5px;
         margin: 0;
+      }
+    }
+  }
+}
+
+.home {
+  @media screen and (max-width:1070px) {
+    .bigLogo {
+      width: 30%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .connectHome .connectSection {
+      width: 45%;
+      float: left;
+
+      &.twitter {
+        float: right;
+      }
+    }
+  }
+
+  @media screen and (max-width:850px) {
+    div.banner {
+      .bannerLogo {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+
+        img {
+          width: 224px;
+          height: 76px;
+          float: none;
+        }
+      }
+    }
+
+    .bigLogo {
+      display: none;
+    }
+
+    .mainContent .services a {
+      margin: 0 1%;
+      padding: 0;
+      width: 30%;
+    }  
+  }
+
+  @media screen and (max-width:575px) {
+    .mainContent {
+      h1 {
+        padding: 5px 0 0;
+        margin: 10px 0;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 130%;
+      }
+      .services {
+        height: 275px;
+        margin-top: 40px;
+
+        a {
+          width: 100%;
+          margin: 1% 1% 2%;
+          padding: 0;
+        }
+      }
+    }
+
+    .connectHome .connectSection {
+      width: 100%;
+      float: left;
+
+      &.twitter {
+        float: left;
       }
     }
   }
