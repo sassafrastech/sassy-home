@@ -6,12 +6,13 @@
     .leftCol {
         margin-top:50px;
     }
+
     h1 {
       margin-top: 20pt;
     }
 
     form {
-      width: 250px;
+      width: 300px;
       font-family: AllerRegular, sans-serif;
       font-size: 14px;
       line-height: 24px;
@@ -19,7 +20,7 @@
     }
 
     input, textarea {
-      width: 300px;
+      width: 100%;
       display: block;
       border: 1px solid #999;
       margin: 0;
@@ -55,6 +56,51 @@
     }
     .actions {
         border: 0px;
+    }
+  }
+}
+
+.contact {
+
+  @media screen and (max-width: 900px) {
+    div.main {
+      padding: 10px;
+
+      .leftCol {
+        width: 49%;
+        margin: 50px 0 0 10px;
+      }
+      .rightCol {
+        width: 49%;
+        margin: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width:750px) {
+    div.main {
+
+      .leftCol {
+        width: 100%;
+        margin: 0 0 0 10px;
+      }
+
+      .rightCol {
+        width: 100%;
+      }
+
+      form {
+        width: 350px;
+      }
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    div.main {
+
+      form {
+        width: 100%;
+      }
     }
   }
 }
