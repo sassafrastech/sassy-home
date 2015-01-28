@@ -8,7 +8,7 @@ set :user, 'tomsmyth'
 set :home_dir, '/home/tomsmyth'
 set :application, "sass_site"
 set :scm, 'git'
-set :repository, "git@github.com:sassafrastech/sassy-home.git"
+set :repository, "https://github.com/sassafrastech/sassy-home.git"
 set (:deploy_to) {"#{home_dir}/webapps/rails2/sass_site"}
 set :deploy_via, :remote_cache
 set :use_sudo, false
