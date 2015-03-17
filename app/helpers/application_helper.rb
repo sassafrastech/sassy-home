@@ -1,8 +1,10 @@
 module ApplicationHelper
   MENU = [
     {:name => "Services", :link => "services"},
+    {:name => "Our Work", :link => "work"},
     {:name => "About", :link => "about"},
-    {:name => "Our Work", :link => "our-work"},
+    {:name => "Team", :link => "team"},
+    {:name => "Jobs", :link => "jobs"},
     {:name => "Contact", :link => "contact"}
   ]
 
