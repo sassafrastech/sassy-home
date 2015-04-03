@@ -3,6 +3,7 @@ $linkColor: #FF8B00;
 $lightGray: rgb(73,73,73);
 $darkGray: rgb(35,35,35);
 $gray1: rgb(102,102,102);
+$gray2: rgb(200,200,200);
 
 /* HTML5 tags */
 header, section, footer, aside, nav, article, figure { display: block; }
@@ -55,13 +56,13 @@ div.banner {
     font-weight: 400;
     font-size: 20px;
     height: 40px;
-    width: 400px;
+    width: auto;
     margin: 30px 0 0 0;
 
     ul {
       list-style: none;
       margin: 0 auto;
-      width: 400px;
+      width: auto;
     }
 
     li {
@@ -91,6 +92,10 @@ div.main {
   padding: 40px;
   min-height: 450px;
 
+  @media screen and (max-width: 600px) {
+    padding: 40px 20px;
+  }
+
   /* two column layout */
   div.leftCol, div.rightCol {
     display: inline-block;
@@ -114,7 +119,7 @@ div.footer {
   position: relative;
   text-align: center;
   font-size: 16px;
-  color: $lightGray;
+  color: $gray2;
   padding: 5px 40px;
   clear: both;
 }

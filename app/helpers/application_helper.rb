@@ -1,13 +1,15 @@
 module ApplicationHelper
   MENU = [
     {:name => "Services", :link => "services"},
-    {:name => "About", :link => "about"},
     {:name => "Our Work", :link => "our-work"},
+    {:name => "About", :link => "about"},
+    {:name => "Team", :link => "team"},
+    {:name => "Jobs", :link => "jobs"},
     {:name => "Contact", :link => "contact"}
   ]
 
   def get_active_menu_item
-    item = MENU.find{|m| m[:link] == params[:controller]}
+    item = MENU.find{|m| m[:link].gsub('-', '_') == params[:controller]}
     item.nil? ? "" : item[:name]
   end
 
