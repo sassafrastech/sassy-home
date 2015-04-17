@@ -21,3 +21,5 @@ TODO
 
 # compiled assets
 public/assets
+
+config/initializers/local_config.rb

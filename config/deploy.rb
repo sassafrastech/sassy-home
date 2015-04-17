@@ -50,6 +50,7 @@ namespace :deploy do
 
   task :symlink_config, roles: :app do
     run "ln -nfs #{shared_path}/config/railsenv #{release_path}/config/railsenv"
+    run "ln -nfs #{shared_path}/config/initializers/local_config.rb #{release_path}/config/initializers/local_config.rb"
   end
   after "deploy:finalize_update", "deploy:symlink_config"
 
