@@ -9,6 +9,9 @@ gem 'sqlite3', '>=1.3.7'
 
 gem 'json'
 
+# Had to set explicit version on 7/17/15 due to compile error
+gem 'libv8', '3.16.14.3'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
