@@ -86,7 +86,7 @@ div.banner {
 }
 
 /* main section */
-div.main {
+.main {
   /* section background and margins*/
   background: url('aboutLeaf.png') no-repeat 52% 120px white;
   padding: 40px;
@@ -186,4 +186,13 @@ div.clearer {
 .coop-logo {
   width: 100px;
   vertical-align: middle;
+}
+
+.section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0;
 }
