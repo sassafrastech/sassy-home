@@ -16,28 +16,37 @@
       <li> community and individual empowerment </li>
     </ul>
 
-    <p>We are a member of the United States Federation of Worker Coops (<%= link_to "USFWC", "http://usworker.coop/", target: "_blank" %>). We are also member of the <a href="http://techworker.coop/">Tech Co-op Network</a>, a network of worker cooperatives focused on technology. Worker cooperatives are "businesses owned and democratically controlled by" their workers.</p>
+    <p>
+      We are a member of the United States Federation of Worker Coops (<%= link_to "USFWC", "http://usworker.coop/", target: "_blank" %>). We are also member of the <%= link_to "Tech Co-op Network", "http://techworker.coop/", target: "_blank" %>, a network of worker cooperatives focused on technology. Worker cooperatives are "businesses owned and democratically controlled by" their workers.
+    </p>
 
     <p>As our logo reflects, we are based in Michigan helping to bring life back into our home.</p>
   </div>
 
   <h4>Links and Resources</h4>
   <ul>
-    <li><a href="https://github.com/sassafrastech/bylaws/blob/master/bylaws.md">Bylaws of Sassafras Tech Collective</a></li>
-    <li><a href="https://drive.google.com/file/d/0B1c_DBNPUgIuYldlZ1ZQSnljY28">"Anti-Oppressive Design"</a> by Thomas Smyth and Jill Dimond</li>
+    <li>
+      <%= link_to "Bylaws of Sassafras Tech Collective",
+        "https://github.com/sassafrastech/bylaws/blob/master/bylaws.md",
+        target: "_blank" %>
+    </li>
+    <li>
+      <%= link_to '"Anti-Oppressive Design"',
+        "https://drive.google.com/file/d/0B1c_DBNPUgIuYldlZ1ZQSnljY28",
+        target: "_blank" %>
+      by Tom Smyth and Jill Dimond
+    </li>
   </ul>
 
   <h4>Credits</h4>
   <ul>
     <li>Background art by
-      <a href="http://justseeds.org/artists/pete_yahnke_railand/">
-        Pete Yahnke Railand (Justseeds Collective)
-      </a>
+      <%= link_to "Pete Yahnke Railand (Justseeds Collective)",
+        "http://justseeds.org/artist/peterailand/", target: "_blank" %>
     </li>
     <li>Twin pines worker cooperative logo adapted from
-      <a href="http://cooperationtexas.coop/">
-        Cooperation Texas
-      </a>
+      <%= link_to "Cooperation Texas",
+        "http://cooperationtexas.coop/", target: "_blank" %>
     </li>
   </ul>
 </div>
