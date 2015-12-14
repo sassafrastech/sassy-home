@@ -6,8 +6,7 @@ class NotificationsMailer < ActionMailer::Base
     @message = message
     subject = "Inquiry from " + message.name.to_s
     reply_address = message.email.to_s
-    mail(:subject => subject)
-    mail(:reply_to => reply_address)
+    mail(:subject => subject, :reply_to => reply_address)
   end
 
 end
