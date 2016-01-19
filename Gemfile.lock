@@ -36,6 +36,7 @@ GEM
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
+    coderay (1.1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -92,6 +93,7 @@ GEM
     rake (10.4.2)
     rdoc (3.12.2)
       json (~> 1.4)
+    redcarpet (3.3.4)
     ref (1.0.5)
     sass (3.4.15)
     sass-rails (3.2.6)
@@ -122,11 +124,13 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano (~> 2.0)
+  coderay
   coffee-rails (~> 3.2.2)
   jquery-rails
   json
   libv8 (= 3.16.14.3)
   rails (~> 3.2.16)
+  redcarpet
   sass-rails (~> 3.2.5)
   sqlite3 (>= 1.3.7)
   therubyracer
