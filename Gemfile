@@ -36,6 +36,6 @@ gem 'capistrano', '~> 2.0'
 # To use debugger
 # gem 'ruby-debug'
 
-# To support Markdown
+# Support Markdown
+gem 'markdown-rails'
 gem 'redcarpet'
-gem 'coderay'
