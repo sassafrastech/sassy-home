@@ -1,6 +1,6 @@
 SassSite::Application.routes.draw do
   resources(:about, only: :index)
-  resources(:contact, only: :index)
+  resources(:contact)
   resources(:home, only: :index)
   resources(:jobs, only: :index)
   resources(:our_work, only: :index, :path => 'our-work')
