@@ -1,17 +1,18 @@
 SassSite::Application.routes.draw do
-  resources(:about)
-  resources(:contact)
-  resources(:home)
-  resources(:jobs)
-  resources(:our_work, :path => 'our-work')
-  resources(:services)
-  resources(:team)
+  resources(:about, only: :index)
+  resources(:contact, only: :index)
+  resources(:home, only: :index)
+  resources(:jobs, only: :index)
+  resources(:our_work, only: :index, :path => 'our-work')
+  resources(:services, only: :index)
+  resources(:team, only: :index)
 
   root :to => 'home#index'
 
   # Markdown Documents
-  get '/bylaws', to: 'markdown#bylaws'
-  get '/code-of-conduct', to: 'markdown#code_of_conduct'
+  get '/bylaws', controller: :markdown, to: 'markdown#bylaws'
+  get '/code-of-conduct', controller: :markdown, to: 'markdown#code_of_conduct',
+    as: 'code_of_conduct'
 
   # legacy link support
   get "/our_work" => redirect("/our-work")
