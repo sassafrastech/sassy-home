@@ -12,7 +12,7 @@ SassSite::Application.routes.draw do
   # Markdown Documents
   get '/bylaws', controller: :markdown, to: 'markdown#bylaws', as: 'bylaws'
   get '/code-of-conduct', controller: :markdown, to: 'markdown#code_of_conduct',
-    as: 'code_of_conduct', as: 'coc'
+    as: 'code_of_conduct'
 
   get '/jobs/project-planner', controller: :jobs, to: 'jobs#project_planner', as: 'project_planner'
 
