@@ -5,7 +5,9 @@ module MarkdownHandler
 
   def self.call(template)
     compiled_source = erb.call(template)
-    "Redcarpet::Markdown.new(Redcarpet::Render::HTML.new(with_toc_data: true), extensions = {}).render(begin;#{compiled_source};end).html_safe"
+    "Redcarpet::Markdown
+      .new(Redcarpet::Render::HTML.new(with_toc_data: true, autolink: true, footnotes: true), extensions = {})
+      .render(begin;#{compiled_source};end).html_safe"
   end
 end
 
