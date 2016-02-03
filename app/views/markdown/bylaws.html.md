@@ -9,7 +9,7 @@
 
 1. The company shall be democratically controlled and is not organized to make a profit for itself, as such, but primarily for its members as patrons.
 
-1. The company shall be run according to the cooperative identity statement as set down by the International Cooperative Alliance<sup>[1](#user-content-ica)</sup>, including the values of self-help, self-responsibility, democracy, equality, equity and solidarity, and the following principles:
+1. The company shall be run according to the cooperative identity statement as set down by the International Cooperative Alliance<sup>[1](#ica)</sup>, including the values of self-help, self-responsibility, democracy, equality, equity and solidarity, and the following principles:
   1. Voluntary and Open Membership
   1. Democratic Member Control
   1. Member Economic Participation
@@ -18,7 +18,7 @@
   1. Co-operation among Co-operatives
   1. Concern for Community
 
-1. The company shall be further guided and inspired by its vision document given in the [next section](#user-content-vision).
+1. The company shall be further guided and inspired by its vision document given in the [next section](#vision).
 
 ## Vision
 1. The phrase “The revolution starts at home,” coined by INCITE! Women of Color Against Violence, underpins the values that the company strives to put into practice. We wish to create an example of an anti-oppressive workplace while also designing technologies that are tied to social justice.
@@ -36,7 +36,7 @@
 
 1. We understand that we are all subjects of both privilege and oppression. We strive to work non-violently against these oppressions in our everyday life. Thus, we commit to challenge and build our understanding of social justice.
 
-1. We are in solidarity with the worker-owned cooperative movement. We recognize the need for democratic member control and economic participation. We also recognize that historically, worker-owned cooperatives are vulnerable to unchecked privileges due to the absence of hierarchy <sup>[2](#user-content-aorta-infiltration)</sup>.
+1. We are in solidarity with the worker-owned cooperative movement. We recognize the need for democratic member control and economic participation. We also recognize that historically, worker-owned cooperatives are vulnerable to unchecked privileges due to the absence of hierarchy <sup>[2](#aorta-infiltration)</sup>.
 
 1. We acknowledge that our field of technology is particularly hostile towards !((white || asian) && man) people. We will work actively to undo this oppression within our company and ourselves. We also align ourselves with organizations and people that are working to end oppression in technology. Due to this, we strive to create an environment that is accepting of white women, women of color, men of color, gender queer, and people with disabilities. Because of structural barriers, we aim to create educational programs and a variety of ways to participate in the co-op for those who do not have privilege in the tech field.
 
@@ -75,20 +75,20 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 
 ### Membership Qualifications
   1. A human person may become a member of the company by:
-    1. Completing a provisional membership period (see [Provisional Membership](#user-content-provisional-membership) below);
+    1. Completing a provisional membership period (see [Provisional Membership](#provisional-membership) below);
     1. Reading all entries on the new member's reading list given in the Operating Rules and being prepared to discuss the said readings during the membership interview;
-    1. Completing membership interviews (see [Membership Interviews](#user-content-membership-interviews) below);
-    1. Being accepted for membership by the existing members following the provisional membership period (see [Acceptance of Members](#user-content-acceptance-of-members) below); and
+    1. Completing membership interviews (see [Membership Interviews](#membership-interviews) below);
+    1. Being accepted for membership by the existing members following the provisional membership period (see [Acceptance of Members](#acceptance-of-members) below); and
     1. Making payment of an initial capital contribution of $1,000.00 or agreeing to have that amount deducted from paychecks issued during, at most, the six (6) months immediately following the date on which membership becomes active.
 
 ### Provisional Membership
 1. A provisional membership period of at least six (6) months shall be completed before a prospective member can be considered for membership.
-1. Provisional members must work at least three-hundred and thirty (330) hours for the company during the provisional membership period.<sup>[3](#user-content-hours)</sup>
+1. Provisional members must work at least three-hundred and thirty (330) hours for the company during the provisional membership period.<sup>[3](#hours)</sup>
 1. Provisional members must attend at least three (3) regular member meetings during the provisional membership period.
 1. Provisional members are not entitled to vote during member meetings, but are free to attend and participate in meetings unless specifically asked not to by the members.
 1. If a person has been an employee of the company for one (1) year but has not fulfilled the requirements for membership, they shall be promptly notified of their status and given a further three (3) months to fulfill the requirements. If after that time they have still not fulfilled the requirements, their employment shall be ended. Note that this does not preclude the person in question from working with the company as a subcontractor or  in some other fashion.
 1. In the case of an application by a former member, the company may waive the provisional membership period.
-1. Provisional members are not entitled to the company benefits described in [Benefits](#user-content-benefits) below, except as otherwise determined by the members on a case-by-case basis.
+1. Provisional members are not entitled to the company benefits described in [Benefits](#benefits) below, except as otherwise determined by the members on a case-by-case basis.
 
 ### Membership Interviews
 1. Following the provisional membership period, the prospective member shall attend a group membership interview conducted as an item of business during a duly arranged member meeting.
@@ -149,7 +149,7 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 
 ## Member Meetings
 ### Meeting Style
-1. Member meetings will be conducted in a style and manner as determined by the members on an ongoing basis and inspired by the AORTA Collective's "Anti-Oppressive Facilitation Resource Sheet"<sup>[3](#user-content-aorta-facilitation)</sup>.
+1. Member meetings will be conducted in a style and manner as determined by the members on an ongoing basis and inspired by the AORTA Collective's "Anti-Oppressive Facilitation Resource Sheet"<sup>[3](#aorta-facilitation)</sup>.
 1. Meeting procedures so determined shall be recorded and maintained in the Document Repository.
 
 ### Calling a Meeting
@@ -174,7 +174,7 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 1. The meeting's agenda shall include but not be limited to:
   1. officer reports, including a report by the treasurer on the company's finances;
   1. a review of these Bylaws and the Operating Rules;
-  1. elections for offices as defined in [Officers](#user-content-officers);
+  1. elections for offices as defined in [Officers](#officers);
   1. a strengths, weaknesses, opportunities, and threats (SWOT) analysis;
   1. appreciations;
   1. celebration.
@@ -182,7 +182,7 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 ### Notice
 1. Written notice of meetings shall be given not less than 2 nor more than 20 days before the date of the meeting  unless:
   1. It is a regularly scheduled meeting AND;
-  1. None of the items of business in [Required Notice](#user-content-required-notice) below is being decided at the meeting.
+  1. None of the items of business in [Required Notice](#required-notice) below is being decided at the meeting.
 1. Notice shall be given to each member who, on the date for notice of the meeting, is entitled to be present.
 1. Notice to a member shall be delivered by any means reasonably expected to reach the member in an expedient manner.
 1. The written meeting notice shall state:
@@ -217,9 +217,9 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 ### Action Without a Meeting
 1. Any action which may be taken at a member meeting may be taken without a meeting if the company distributes a written ballot to every member entitled to vote on the matter.
 1. Approval by written ballot pursuant to this section shall be valid only when the number of ballots returned within the specified time period constitutes a quorum.
-1. The usual standard of affirmation, specified in [Voting](#user-content-voting) above, shall apply in this case.
+1. The usual standard of affirmation, specified in [Voting](#voting) above, shall apply in this case.
 1. A non-consensus vote may not be held without a meeting.
-1. None of the items of business listed in [Required Notice](#user-content-required-notice) may be decided without a meeting, unless it was decided at a prior meeting to hold a written ballot vote on the issue in question, or unless the totality of members return ballots.
+1. None of the items of business listed in [Required Notice](#required-notice) may be decided without a meeting, unless it was decided at a prior meeting to hold a written ballot vote on the issue in question, or unless the totality of members return ballots.
 1. The ballot and any related material may be sent by electronic transmission and responses may be returned to the company by electronic transmission.
 1. A reasonable amount of time must be provided within which to return the ballot to the company.
 1. The ballot shall include:
@@ -256,7 +256,7 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 
 ### Duties of Scribe
 1. The scribe shall keep, or cause to be kept, in the Document Repository, minutes of all member meetings.
-1. The scribe shall keep, or cause to be kept, in the Document Repository, the records of the company required to be kept as described in [Records Required to Be Kept](#user-content-records-required-to-be-kept).
+1. The scribe shall keep, or cause to be kept, in the Document Repository, the records of the company required to be kept as described in [Records Required to Be Kept](#records-required-to-be-kept).
 1. The scribe shall file, or cause to be filed, any annual or other regularly required corporate documents with the State of Michigan.
 1. The scribe shall effect any changes to these Bylaws or the Operating Rules as approved by the members.
 
@@ -291,7 +291,7 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 
 ### Allocation of Net Income
 1. The positive or negative accounting net income of the company shall be allocated annually among the internal capital accounts after payment of the cash portion of patronage dividends.
-1. Patronage net income, after reductions in accordance with [Unallocated Retained Earnings](#user-content-unallocated-retained-earnings) below shall be allocated as patronage dividends to the members on the basis of their relative patronage.
+1. Patronage net income, after reductions in accordance with [Unallocated Retained Earnings](#unallocated-retained-earnings) below shall be allocated as patronage dividends to the members on the basis of their relative patronage.
 1. Allocations of patronage dividends shall be made within 8 1/2 months after the end of the fiscal year.
 1. In any proportions determined by the members and recorded in the Operating Rules, patronage dividends may be paid in cash, in qualified written notices of allocation, or in non-qualified written notices of allocation as defined in Subchapter T of the federal Internal Revenue Code of 1986, as amended from time to time (hereinafter, "Subchapter T").
 1. The amount of any written notice of allocation issued to a member shall be credited to the member's individual capital account and the amount thus retained by the company may be used for any and all corporate purposes.
@@ -348,7 +348,7 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 1. As required by the State of Michigan, the company must file an annual report with the Department of Licensing and Regulatory Affairs no later than February 15th of each year. The report so filed shall be added to the document repository.
 
 ## Amendment
-1. These Bylaws may be adopted, amended, or repealed by resolution of the members as governed by [Member Meetings](#user-content-member-meetings).
+1. These Bylaws may be adopted, amended, or repealed by resolution of the members as governed by [Member Meetings](#member-meetings).
 
 
 ## Endnotes
@@ -357,6 +357,6 @@ These Bylaws serve as the operating agreement for Sassafras Tech Collective as d
 
 <a name="aorta-infiltration">2.</a> See AORTA Collective's [Infiltration resource](http://aortacollective.org/sites/default/files/infiltration_handout.pdf) (PDF)
 
-<a name="hours">3.</a>This number is derived from the minimum level of effort standard defined in [Level of Effort](#user-content-level-of-effort).
+<a name="hours">3.</a>This number is derived from the minimum level of effort standard defined in [Level of Effort](#level-of-effort).
 
 <a name="aorta-facilitation">4.</a> See AORTA Collective's ["Anti-Oppressive Facilitation Resource Sheet"](http://aortacollective.org/sites/default/files/ao_facilitation_resource_sheet.pdf) (PDF)
