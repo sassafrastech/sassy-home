@@ -37,5 +37,4 @@ gem 'capistrano', '~> 2.0'
 # gem 'ruby-debug'
 
 # Support Markdown
-gem 'markdown-rails'
 gem 'redcarpet'
