@@ -43,7 +43,14 @@
   </div>
 
   <div class="main">
-    <%= yield %>
+    <% if params[:controller] == "markdown" %>
+      <section class="section">
+        <%= yield %>
+      </section>
+    <% else %>
+      <%= yield %>
+    <% end %>
+
     <div class="clearer"></div>
   </div>
 

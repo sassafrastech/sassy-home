@@ -1,8 +1,5 @@
-Sassafras Tech Collective
-=========================
-
-Code of Conduct
----------------
+Sassafras Tech Collective Code of Conduct
+=========================================
 
 Purpose
 -------
