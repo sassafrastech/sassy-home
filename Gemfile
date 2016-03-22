@@ -1,28 +1,25 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 
-gem 'rails', '~> 3.2.16'
+gem "rails", "~> 4.2.0"
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '>=1.3.7'
+gem "sqlite3", ">=1.3.7"
+gem "json"
+gem "libv8"
 
-gem 'json'
+# Asset gems
+gem "sass-rails"
+gem "coffee-rails"
+gem "uglifier"
 
-# Had to set explicit version on 7/17/15 due to compile error
-gem 'libv8', '3.16.14.3'
-
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.2.5'
-  gem 'coffee-rails', '~> 3.2.2'
-  gem 'uglifier', '>= 1.0.3'
+group :development do
+  gem "letter_opener"
 end
 
-gem 'therubyracer'
-
-gem 'jquery-rails'
+gem "therubyracer"
+gem "jquery-rails"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -31,10 +28,10 @@ gem 'jquery-rails'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-gem 'capistrano', '~> 2.0'
+gem "capistrano", "~> 2.0"
 
 # To use debugger
 # gem 'ruby-debug'
 
 # Support Markdown
-gem 'redcarpet'
+gem "redcarpet"
