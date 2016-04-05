@@ -1,1 +1,0 @@
-SassSite::Application.config.secret_token = 'xxx'
