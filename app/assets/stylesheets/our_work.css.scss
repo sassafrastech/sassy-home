@@ -69,6 +69,7 @@
 
         > img {
           float: none;
+
         }
 
         div.info {
@@ -86,6 +87,54 @@
 
     div.divider {
       margin: 40px 0 20px;
+    }
+  }
+
+  @media screen and (max-width:400px) {
+    div.main {
+      padding: 15px;
+
+      div.client {
+        > img {
+          float: none;
+          width: 200px;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+          text-align: center;
+        }
+
+        div.info {
+          margin-left: 0;
+          clear: left;
+          margin-top: 20px;
+
+          > h2 {
+            text-align: center;
+          }
+
+          div.vignettes {
+            > div {
+              width: auto;
+              height: auto;
+            }
+
+            img {
+              float: none;
+              display: block;
+              margin: 5px auto;
+              text-align: center;
+            }
+
+            .blurb {
+              float: none;
+              display: block;
+              margin: 5px auto 15px;
+              text-align: center;
+            }
+          }
+        }
+      }
     }
   }
 }
