@@ -69,7 +69,11 @@
 
         > img {
           float: none;
-
+          width: 250px;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+          text-align: center;
         }
 
         div.info {
@@ -77,9 +81,15 @@
           clear: left;
           margin-top: 20px;
 
-          div.vignettes > div {
-            width: auto;
-            height: 150px;
+          > h2 {
+            text-align: center;
+          }
+
+          div.vignettes {
+            > div {
+              width: auto;
+              height: 150px;
+            }
           }
         }
       }
@@ -96,22 +106,10 @@
 
       div.client {
         > img {
-          float: none;
           width: 200px;
-          height: auto;
-          display: block;
-          margin: 0 auto;
-          text-align: center;
         }
 
         div.info {
-          margin-left: 0;
-          clear: left;
-          margin-top: 20px;
-
-          > h2 {
-            text-align: center;
-          }
 
           div.vignettes {
             > div {
