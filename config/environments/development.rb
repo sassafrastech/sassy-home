@@ -30,4 +30,6 @@ SassSite::Application.configure do
 
   # Don't send actual emails in development
   config.action_mailer.delivery_method = :letter_opener
+
+  config.eager_load = false
 end
