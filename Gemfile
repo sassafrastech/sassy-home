@@ -27,11 +27,15 @@ gem "jquery-rails"
 # Use unicorn as the web server
 # gem 'unicorn'
 
-# Deploy with Capistrano
-gem "capistrano", "~> 2.0"
-
 # To use debugger
 # gem 'ruby-debug'
 
 # Support Markdown
 gem "redcarpet"
+
+group :development do
+  gem 'capistrano', '~> 3.0', require: false
+  gem 'capistrano-rails',   '~> 1.1', require: false
+  gem 'capistrano-bundler', '~> 1.1', require: false
+  gem 'capistrano-passenger'
+end
