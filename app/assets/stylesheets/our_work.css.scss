@@ -39,37 +39,33 @@
         div.vignettes {
           margin-top: 20px;
 
-
           > div {
-            display: inline-block;
-            width: 350px;
+            display: inline-flex;
+            width: 45%;
             vertical-align: top;
             margin-right: 20px;
           }
 
-          /* vignette image */
           img {
+            display: inline-block;
             width: 133px;
             height: 100px;
             border: 1px solid #aaa;
-            float: left;
             margin-right: 20px;
-            margin-bottom: 15px;
           }
         }
       }
     }
   }
 
-  @media screen and (max-width:900px) {
+  @media screen and (max-width:999px) {
     div.main {
       padding: 20px;
 
       div.client {
-
         > img {
           float: none;
-          width: 250px;
+          width: 200px;
           height: auto;
           display: block;
           margin: 0 auto;
@@ -115,6 +111,7 @@
             > div {
               width: auto;
               height: auto;
+              display: block;
             }
 
             img {
