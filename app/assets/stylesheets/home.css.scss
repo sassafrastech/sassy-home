@@ -185,6 +185,11 @@ $linkColor: #FF8B00;
         letter-spacing: 1.5px;
         margin: 0;
       }
+
+      #twitterFeed {
+        max-height: 15em;
+        overflow-y: scroll;
+      }
     }
   }
 }
