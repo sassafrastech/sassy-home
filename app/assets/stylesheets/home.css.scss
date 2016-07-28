@@ -190,6 +190,12 @@ $linkColor: #FF8B00;
         max-height: 15em;
         overflow-y: scroll;
       }
+
+      &.contact {
+        img {
+          width: 100%;
+        }
+      }
     }
   }
 }
