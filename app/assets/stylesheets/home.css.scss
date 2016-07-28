@@ -193,7 +193,8 @@ $linkColor: #FF8B00;
 
       &.contact {
         img {
-          width: 100%;
+          height: 9em;
+          max-width: 100%;
         }
       }
     }
