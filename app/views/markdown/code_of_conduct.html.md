@@ -1,16 +1,11 @@
-Sassafras Tech Collective
-=========================
+# Sassafras Tech Collective
+# Code of Conduct
 
-Code of Conduct
-===============
-
-Purpose
--------
+## Purpose
 
 These agreements established by our community guide all Sassafras spaces (meetings, emails, online chats, Sassy Hour, social events, etc.) The intention of these agreements is to ensure workers respect each other and put anti-oppressive theory into practice when we interact with one another.
 
-Community Agreements
---------------------
+## Community Agreements
 
 1. **Each person matters. Everyone is welcome to contribute.**  
   You belong to this community and we want everyone to feel welcome, comfortable, and productive. Our team is a community and our actions should reflect building community and making everyone feel welcome to contribute. If you have a resource that might help someone on the team, please share it. If you have a concern, please bring it up. Each individual person adds something important to our community. When everyone feels welcome, we benefit from people bringing their whole selves to the work we do and the community we are building.
@@ -50,14 +45,13 @@ Community Agreements
 1. **Ask permission. Respect consent.**  
   Before posting information online about a teammate or disclosing sensitive information about your teammate(s) outside of a Sassafras space, please request that individual's permission first. Examples of sensitive information may include things like photos, legal names, their personal stories, location, etc.
 
-Harassment
-----------
+## Harassment
 
-**Harassment-Free Space**
+### Harassment-Free Space
 
 We are committed to providing a harassment-free workplace for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of community members in any form.
 
-Harassment includes:
+### Harassment includes:
 
 -  Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, or religion.
 -  Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
@@ -76,13 +70,11 @@ Harassment includes:
 -  Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse.
 -  Publication of non-harassing private communication.
 
-Reporting and Enforcement
--------------------------
+## Reporting and Enforcement
 
 In cases of harassment (see the above section for the definition of harassment) a person may report the behavior to a team member they trust. If a report is made, the incident should be brought before the members at a meeting at the reporting person's discretion. We take harassing behavior very seriously, and incidents may be grounds to call an expulsion hearing in accordance with the bylaws and operating rules.
 
-Acknowledgements and Resources
-------------------------------
+## Acknowledgements and Resources
 
 1.  [Infiltration: How the values of oppressive systems tend to arise in co-ops (and what we can do about it)](http://aorta.coop/sites/default/files/infiltration_handout.pdf) by Aorta Collective.
 2.  [AORTA Resource Zine](http://aortacollective.org/sites/default/files/resource_zine_v1.pdf) by AORTA Collective.
@@ -98,7 +90,6 @@ Acknowledgements and Resources
 9.  ["Code of Conduct evaluations"](http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations) by Geek Feminism
 10.  ["TODO Group and Open Source Codes of Conduct"](https://modelviewculture.com/news/todo-group-and-open-source-codes-of-conduct) by Nikki Murray
 
-License
--------
+## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Code of Conduct</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://sassafras.coop" property="cc:attributionName" rel="cc:attributionURL">Sassafras Tech Collective</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
