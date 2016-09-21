@@ -1,0 +1,48 @@
+.markdown {
+  h1, h2, h3, h4 {
+    text-transform: uppercase;
+    // font-family: LeagueGothicRegular;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    font-family: LeagueGothicRegular;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: allerregular;
+    color: $accent1;
+    margin-top: 3rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-family: LeagueGothicRegular;
+    font-weight: 400;
+  }
+
+  li {
+    strong {
+      font-family: allerregular;
+      font-weight: bold;
+    }
+  }
+}
