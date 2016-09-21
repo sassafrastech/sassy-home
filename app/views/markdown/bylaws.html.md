@@ -38,7 +38,7 @@
 
 1. We are in solidarity with the worker-owned cooperative movement. We recognize the need for democratic member control and economic participation. We also recognize that historically, worker-owned cooperatives are vulnerable to unchecked privileges due to the absence of hierarchy <sup>[2](#aorta-infiltration)</sup>.
 
-1. We acknowledge that our field of technology is particularly hostile towards !((white || asian) && man) people. We work actively to undo this oppression within our co-op and ourselves. We also align ourselves with organizations and people that are working to end oppression in technology. Due to this, we strive to create an environment that is accepting of white women, women of color, men of color, gender queer people, and people with disabilities. Because of structural barriers, we aim to create educational programs and a variety of ways to participate in the co-op for those who do not have privilege in the tech field.
+1. We acknowledge that our field of technology is particularly hostile towards those who identify as !((white || asian) && male). We actively work to undo this oppression within our co-op and ourselves. We also align ourselves with organizations and people that are working to end oppression in technology. Due to this, we strive to create an environment that is accepting of white women, women of color, men of color, genderqueer people, and people with disabilities. Because of structural barriers, we aim to create educational programs and a variety of ways to participate in the co-op for those who do not have privilege in the tech field.
 
 1. We strive to work on projects that do not reinforce any oppression, and optimally, projects that work against oppression.
 
