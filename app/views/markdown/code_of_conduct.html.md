@@ -1,5 +1,4 @@
-# Sassafras Tech Collective
-# Code of Conduct
+# Code of Conduct of Sassafras Tech Collective
 
 ## Purpose
 
