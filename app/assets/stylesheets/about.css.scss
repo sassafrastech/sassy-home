@@ -1,24 +1,30 @@
 .about {
 
   /* gutters */
-  .main > div {
-    width: 60%;
-    margin: 0 auto;
+  .main {
+    padding: 0;
+    background: $white;
+  }
+
+  section {
+    width: auto;
+    padding: 2em 20%;
 
     @media screen and (max-width: 1090px) {
       width: 100%;
+      margin: 0;
     }
   }
 
   /* tagline at top */
-  h1 {
+  .tagline {
     font-family: Georgia;
     font-size: 21px;
     color: gray;
     font-style: italic;
     text-align: center;
     font-weight: 100;
-    margin-top: 0;
+    margin: 0;
     line-height: 30px;
     letter-spacing: 1.3px;
   }
@@ -27,10 +33,65 @@
   h2 {
     color: #333333;
     text-align: center;
-    margin:50px 0px;
+    margin: 50px 0px;
   }
 
   .blurb {
     text-align: justify;
+  }
+
+  .blurbs, .membership {
+    text-align: center;
+
+    img {
+      height: 100px;
+      width: auto;
+      margin: 0 auto;
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .blurbs {
+    h2 {
+      height: 2em;
+      margin: 1em 0;
+    }
+
+    img {
+      opacity: .5;
+    }
+  }
+
+  .membership {
+    h4 {
+      font-size: 1.1em;
+      height: 3em;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .row {
+    display: flex;
+
+    .column {
+      width: 33%;
+      box-sizing: border-box;
+      padding: 2%;
+    }
+
+    @media screen and (max-width: 1090px) {
+      width: 100%;
+    }
+  }
+
+  section:nth-child(even) {
+    background: $gray3;
   }
 }
