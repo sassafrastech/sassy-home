@@ -14,6 +14,13 @@
       width: 100%;
       margin: 0;
     }
+
+    h1 {
+      font-family: allerregular;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $accent1;
+    }
   }
 
   /* tagline at top */
@@ -27,6 +34,7 @@
     margin: 0;
     line-height: 30px;
     letter-spacing: 1.3px;
+    text-transform: none;
   }
 
   /* deeply */
@@ -34,6 +42,20 @@
     color: #333333;
     text-align: center;
     margin: 50px 0px;
+  }
+
+  .row {
+    display: flex;
+
+    .column {
+      width: 33%;
+      box-sizing: border-box;
+      padding: 2%;
+    }
+
+    @media screen and (max-width: 1090px) {
+      width: 100%;
+    }
   }
 
   .blurb {
@@ -66,32 +88,52 @@
   }
 
   .membership {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1em;
+
     h4 {
-      font-size: 1.1em;
-      height: 3em;
+      font-size: 1em;
       margin: 0;
     }
 
     p {
       margin: 0;
     }
-  }
 
-  .row {
-    display: flex;
-
-    .column {
-      width: 33%;
-      box-sizing: border-box;
-      padding: 2%;
+    div {
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;
     }
 
-    @media screen and (max-width: 1090px) {
-      width: 100%;
+    img {
+      height: auto;
+      width: 60px;
+      margin: 0 .5em 0 0;
+      display: inline-block;
+      vertical-align: middle;
     }
   }
 
   section:nth-child(even) {
     background: $gray3;
+  }
+
+  ul {
+    padding: 0 0 0 1.25em;
+  }
+
+  .credits {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 1em;
+    }
   }
 }

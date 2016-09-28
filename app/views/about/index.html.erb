@@ -45,60 +45,55 @@
       groups. We are members of:
     </p>
 
-    <div class="row">
-      <div class="membership column">
+    <div>
+      <div class="membership">
         <%= image_tag "usfwc.png" %>
-        <h4><%= link_to "United States Federation of Worker Coops", "http://usworker.coop/", target: "_blank" %></h4>
-        <p>A network of democratically-owned businesses in the United States.</p>
+        <div>
+          <h4><%= link_to "United States Federation of Worker Coops", "http://usworker.coop/", target: "_blank" %></h4>
+          <p>A network of democratically-owned businesses in the United States.</p>
+        </div>
       </div>
-      <div class="membership column">
+      <div class="membership">
         <%= image_tag "natechcoop.ico" %>
-        <h4><%= link_to "Tech Co-op Network", "http://techworker.coop/", target: "_blank" %></h4>
-        <p>A network of North American worker cooperatives focused on technology.</p>
+        <div>
+          <h4><%= link_to "Tech Co-op Network", "http://techworker.coop/", target: "_blank" %></h4>
+          <p>A network of North American worker cooperatives focused on technology.</p>
+        </div>
       </div>
     </div>
 
-    <p>As our logo reflects, we are based in Michigan helping to bring life back into our home.</p>
+    <!-- <p>As our logo reflects, we are based in Michigan helping to bring life back into our home.</p> -->
   </section>
 
-  <section>
-    <h1>Links and Resources</h1>
+  <section class="resources">
+    <h1>Resources</h1>
     <ul>
       <li>
-        <h5>Sassafras Resources</h5>
-        <ul>
-          <li>
-            <%= link_to "Bylaws of Sassafras Tech Collective", bylaws_path %>
-          </li>
-          <li>
-            <%= link_to "Code of Conduct", code_of_conduct_path %>
-          </li>
-        </ul>
+        <%= link_to "Bylaws of Sassafras Tech Collective", bylaws_path, target: "_blank" %>
       </li>
       <li>
-        <h5>Other Resources</h5>
-        <ul>
-          <li>
-          <%= link_to '"Anti-Oppressive Design"',
-            "https://drive.google.com/file/d/0B1c_DBNPUgIuYldlZ1ZQSnljY28",
-            target: "_blank" %>
-          by Tom Smyth and Jill Dimond
-          </li>
-        </ul>
+        <%= link_to "Code of Conduct", code_of_conduct_path, target: "_blank" %>
+      </li>
+      <li>
+      <%= link_to '"Anti-Oppressive Design"',
+        "https://drive.google.com/file/d/0B1c_DBNPUgIuYldlZ1ZQSnljY28",
+        target: "_blank" %>
+      by Tom Smyth and Jill Dimond
       </li>
     </ul>
   </section>
 
-  <section>
+  <section class="credits">
     <h1>Credits</h1>
     <ul>
-      <li>Background art by
-        <%= link_to "Pete Yahnke Railand (Justseeds Collective)",
+      <li>Blue and gray background art with "Grow Together" text created by
+        <%= link_to "Pete Railand",
           "http://justseeds.org/artist/peterailand/", target: "_blank" %>
+        of Justseeds Collective. Used with permission.
       </li>
-      <li>Twin pines worker cooperative logo adapted from
+      <li>Twin pines "worker owned-cooperative" logo adapted from
         <%= link_to "Cooperation Texas",
-          "http://cooperationtexas.coop/", target: "_blank" %>
+          "http://cooperationtexas.coop/", target: "_blank" %>.
       </li>
     </ul>
   </section>
