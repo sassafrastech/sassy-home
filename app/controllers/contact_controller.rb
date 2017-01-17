@@ -7,7 +7,7 @@ class ContactController < ApplicationController
     @message = Message.new(params[:message])
 
     if @message.valid?
-      NotificationsMailer.new_message(@message).deliver
+      NotificationsMailer.new_message(@message).deliver unless params[:other].present? # Check honeypot
       flash[:notice] = "Message was successfully sent."
       redirect_to(:action => :index)
     else
