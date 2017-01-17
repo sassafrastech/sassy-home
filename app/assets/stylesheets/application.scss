@@ -1,14 +1,14 @@
 /*
  *= require_self
  */
-@import "layout.css.scss";
-@import "about.css.scss";
-@import "contact.css.scss";
-@import "home.css.scss";
-@import "our_work.css.scss";
-@import "services.css.scss";
-@import "media.css.scss";
-@import "team.css.scss";
-@import "markdown.css.scss";
+@import "layout";
+@import "about";
+@import "contact";
+@import "home";
+@import "our_work";
+@import "services";
+@import "media";
+@import "team";
+@import "markdown";
 
-@import "fontawesome/font-awesome.scss";
+@import "fontawesome/font-awesome";
