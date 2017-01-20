@@ -3,7 +3,7 @@ class Message
   include ActiveModel::Conversion
   extend ActiveModel::Naming
 
-  attr_accessor :name, :email, :body, :text
+  attr_accessor :name, :email, :text, :body
 
   validates :name, :email, :text, presence: true
   validates :email, format: { with: /.+@.+\..+/ }, allow_blank: true

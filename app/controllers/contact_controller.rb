@@ -1,4 +1,6 @@
 class ContactController < ApplicationController
+  invisible_captcha honeypot: :body
+
   def index
     @message = Message.new
   end
@@ -6,13 +8,17 @@ class ContactController < ApplicationController
   def create
     @message = Message.new(params[:message])
 
-    if @message.valid?
-      NotificationsMailer.new_message(@message).deliver unless params[:other].present? # Check honeypot
-      flash[:notice] = "Message was successfully sent."
-      redirect_to(:action => :index)
+    if params[:message][:body].present?
+      render :index, status: 200
     else
-      flash[:error] = @message.errors.full_messages.join(", ")
-      render :index
+      if @message.valid?
+        NotificationsMailer.new_message(@message).deliver
+        flash[:notice] = "Message was successfully sent."
+        redirect_to(:action => :index)
+      else
+        flash[:error] = @message.errors.full_messages.join(", ")
+        render :index
+      end
     end
   end
 

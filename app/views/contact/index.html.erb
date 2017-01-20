@@ -15,7 +15,7 @@
     <% end %>
   </div>
 
-  <%= form_for @message, :url => contact_path do |form| %>
+  <%= form_for @message, url: contact_path, html: {autocomplete: "off"} do |form| %>
     <fieldset class="fields">
       <div class="field">
         <%= form.label :name %>
@@ -36,9 +36,6 @@
         <%= form.text_area :text %>
       </div>
     </fieldset>
-
-    <%# Honeypot %>
-    <%= text_field_tag :other %>
 
     <fieldset class="actions">
       <%= form.submit "Send" %>
