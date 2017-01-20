@@ -33,6 +33,8 @@ gem "jquery-rails"
 # Support Markdown
 gem "redcarpet"
 
+gem 'invisible_captcha'
+
 group :development do
   gem 'capistrano', '~> 3.0', require: false
   gem 'capistrano-rails',   '~> 1.1', require: false
