@@ -1,6 +1,4 @@
 class ContactController < ApplicationController
-  invisible_captcha honeypot: :body
-
   def index
     @message = Message.new
   end
@@ -21,5 +19,4 @@ class ContactController < ApplicationController
       end
     end
   end
-
 end
