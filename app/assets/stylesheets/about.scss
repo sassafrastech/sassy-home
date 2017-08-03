@@ -59,15 +59,16 @@
     }
   }
 
-  .blurb {
-    text-align: justify;
+  .blurbs, .membership {
+    img {
+      height: 100px;
+    }
   }
 
-  .blurbs, .membership {
+  .membership {
     text-align: center;
 
     img {
-      height: 100px;
       width: auto;
       margin: 0 auto;
     }
@@ -77,14 +78,29 @@
     }
   }
 
-  .blurbs {
-    h2 {
-      height: 2em;
-      margin: 1em 0;
-    }
+  .blurb {
+    display: inline-flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 2em;
 
     img {
+      // display: inline-block;
+      // margin: 0 1em 0 0;
       opacity: .5;
+      padding-right: 1em;
+      // align-self: flex-start;
+    }
+
+    h2 {
+      // display: inline-block;
+      // height: 100px;
+      text-align: left;
+      margin: 0 0 .5em;
+    }
+
+    p {
+      margin: 0;
     }
   }
 
