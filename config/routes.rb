@@ -14,6 +14,7 @@ SassSite::Application.routes.draw do
   get "/code-of-conduct", controller: :markdown, to: "markdown#code_of_conduct", as: "code_of_conduct"
 
   get "/jobs/project-planner", controller: :jobs, to: 'jobs#project_planner', as: "project_planner"
+  get "/jobs/rails-developer", controller: :jobs, to: 'jobs#rails_developer', as: "rails_developer"
 
   # legacy link support
   get "/our_work" => redirect("/our-work")

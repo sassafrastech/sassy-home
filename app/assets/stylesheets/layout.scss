@@ -36,7 +36,7 @@ div.banner {
   padding: 20px;
   height: 120px;
   width: auto;
-  background-image: url('bannerPrint.png');
+  background-image: image-url('bannerPrint.png');
   background-repeat: repeat;
 
   .bannerLogo img {
@@ -92,7 +92,7 @@ div.banner {
 /* main section */
 .main {
   /* section background and margins*/
-  background: url('aboutLeaf.png') no-repeat 52% 120px white;
+  background: image-url('aboutLeaf.png') no-repeat 52% 120px white;
   padding: 40px;
   min-height: 450px;
 
@@ -142,7 +142,7 @@ a:hover {
 /* divider */
 div.divider {
   height: 20px;
-  background: url("dividerTriangle.png") no-repeat center top;
+  background: image-url("dividerTriangle.png") no-repeat center top;
   border-top: 1px solid #ccc;
   padding: 0;
   margin: 40px 100px 20px 100px;
@@ -157,32 +157,32 @@ div.clearer {
 /* embedded fonts */
 @font-face {
   font-family: 'LeagueGothicRegular';
-  src: font-url('League_Gothic-webfont.eot');
-  src: local(League_Gothic-webfont), font-url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'), font-url('League_Gothic-webfont.woff') format('woff'), font-url('League_Gothic-webfont.ttf') format('truetype'), font-url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+  src: asset-url('League_Gothic-webfont.eot');
+  src: local(League_Gothic-webfont), asset-url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'), asset-url('League_Gothic-webfont.woff') format('woff'), asset-url('League_Gothic-webfont.ttf') format('truetype'), asset-url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'allerregular';
-  src: font-url('aller_rg-webfont.eot');
-  src: local('aller_rg-webfont'),font-url('aller_rg-webfont.eot?#iefix') format('embedded-opentype'), font-url('aller_rg-webfont.woff') format('woff'), font-url('aller_rg-webfont.ttf') format('truetype'), font-url('aller_rg-webfont.svg#allerregular') format('svg');
+  src: asset-url('aller_rg-webfont.eot');
+  src: local('aller_rg-webfont'),asset-url('aller_rg-webfont.eot?#iefix') format('embedded-opentype'), asset-url('aller_rg-webfont.woff') format('woff'), asset-url('aller_rg-webfont.ttf') format('truetype'), asset-url('aller_rg-webfont.svg#allerregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aller_lightregular';
-  src: font-url('aller_lt-webfont.eot');
-  src: local('aller_lt-webfont'),font-url('aller_lt-webfont.eot?#iefix') format('embedded-opentype'), font-url('aller_lt-webfont.woff') format('woff'), font-url('aller_lt-webfont.ttf') format('truetype'), font-url('aller_lt-webfont.svg#aller_lightregular') format('svg');
+  src: asset-url('aller_lt-webfont.eot');
+  src: local('aller_lt-webfont'),asset-url('aller_lt-webfont.eot?#iefix') format('embedded-opentype'), asset-url('aller_lt-webfont.woff') format('woff'), asset-url('aller_lt-webfont.ttf') format('truetype'), asset-url('aller_lt-webfont.svg#aller_lightregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'WebSymbols';
-  src: font-url('WebSymbols-Regular-webfont.eot');
-  src: local('WebSymbols-Regular-webfont'),font-url('WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'), font-url('WebSymbols-Regular-webfont.woff') format('woff'), font-url('WebSymbols-Regular-webfont.ttf') format('truetype'), font-url('WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
+  src: asset-url('WebSymbols-Regular-webfont.eot');
+  src: local('WebSymbols-Regular-webfont'),asset-url('WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'), asset-url('WebSymbols-Regular-webfont.woff') format('woff'), asset-url('WebSymbols-Regular-webfont.ttf') format('truetype'), asset-url('WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }

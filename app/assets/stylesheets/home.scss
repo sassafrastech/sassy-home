@@ -37,7 +37,7 @@ $linkColor: #FF8B00;
   /* main section */
   .mainContent {
     /* override background image */
-    background: url('treeBg.png') repeat !important;
+    background: image-url('treeBg.png') repeat !important;
 
     /* other stuff */
     height: 450px;
@@ -184,11 +184,6 @@ $linkColor: #FF8B00;
         color: $linkColor;
         letter-spacing: 1.5px;
         margin: 0;
-      }
-
-      #twitterFeed {
-        max-height: 15em;
-        overflow-y: scroll;
       }
 
       &.contact {

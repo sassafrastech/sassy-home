@@ -49,15 +49,15 @@
 
     /* different color logos */
     &.category0 h2 {
-      background-image: url("logoBlue.png");
+      background-image: image-url("logoBlue.png");
     }
 
     &.category1 h2 {
-      background-image: url("logoGreen.png");
+      background-image: image-url("logoGreen.png");
     }
 
     &.category2 h2 {
-      background-image: url("logoOrange.png");
+      background-image: image-url("logoOrange.png");
     }
 
     /* individual service */

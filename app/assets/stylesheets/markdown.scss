@@ -28,13 +28,15 @@
 
   h2 {
     margin-top: 3rem;
-    color: $accent1;
   }
 
   li {
     strong {
       font-family: allerregular;
       font-weight: bold;
+    }
+    li {
+      list-style-type: lower-alpha;
     }
   }
 }

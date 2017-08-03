@@ -4,7 +4,7 @@
     padding-top:10px;
 
     .leftCol {
-        margin-top:50px;
+      margin-top:50px;
     }
 
     h1 {
@@ -35,27 +35,32 @@
       height: 200px;
     }
 
+    // Honeypot
+    #message_body {
+      display: none;
+    }
+
     .notice {
-        min-height:12px;
-        margin-bottom:10px;
-        margin-left:13px;
-        margin-top:20px;
+      min-height:12px;
+      margin-bottom:10px;
+      margin-left:13px;
+      margin-top:20px;
     }
 
     .error {
-        color: red;
-        margin:0px;
+      color: red;
+      margin:0px;
     }
     .success {
-        color: green;
-        margin:0px;
+      color: green;
+      margin:0px;
     }
 
     .fields {
-        border: 0px;
+      border: 0px;
     }
     .actions {
-        border: 0px;
+      border: 0px;
     }
   }
 }

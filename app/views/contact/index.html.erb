@@ -15,7 +15,7 @@
     <% end %>
   </div>
 
-  <%= form_for @message, :url => contact_path do |form| %>
+  <%= form_for @message, url: contact_path, html: {autocomplete: "off"} do |form| %>
     <fieldset class="fields">
       <div class="field">
         <%= form.label :name %>
@@ -28,8 +28,12 @@
       </div>
 
       <div class="field">
-        <%= form.label :body %>
         <%= form.text_area :body %>
+      </div>
+
+      <div class="field">
+        <%= form.label :text, "Body" %>
+        <%= form.text_area :text %>
       </div>
     </fieldset>
 
