@@ -79,10 +79,17 @@
   }
 
   .blurb {
-    display: inline-flex;
-    align-items: start;
-    justify-content: center;
-    margin-top: 2em;
+    display: block;
+    text-align: center;
+    margin: 0 0 2em;
+
+    @media screen and (min-width: 700px) {
+      text-align: left;
+      display: inline-flex;
+      align-items: start;
+      justify-content: center;
+      margin-top: 2em;
+    }
 
     img {
       // display: inline-block;
@@ -93,10 +100,11 @@
     }
 
     h2 {
-      // display: inline-block;
-      // height: 100px;
-      text-align: left;
       margin: 0 0 .5em;
+
+      @media screen and (min-width: 700px) {
+        text-align: left;
+      }
     }
 
     p {
