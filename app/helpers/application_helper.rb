@@ -8,9 +8,23 @@ module ApplicationHelper
     {:name => "Contact", :link => "contact"}
   ]
 
+  # For pages not included in the main menu that need their headings displayed in the top header
+  PAGES = [
+    {:name => "Documents", :controller => "documents"}
+  ]
+
   def get_active_menu_item
     item = MENU.find{|m| m[:link].gsub('-', '_') == params[:controller]}
     item.nil? ? "" : item[:name]
+  end
+
+  def get_active_page
+    item = PAGES.find{|p| p[:controller].gsub('-', '_') == params[:controller]}
+    item.nil? ? "" : item[:name]
+  end
+
+  def get_active_item
+    get_active_menu_item.empty? ? get_active_page : get_active_menu_item
   end
 
   def get_menu
@@ -27,8 +41,8 @@ module ApplicationHelper
 
   def make_title
     title = "Sassafras Tech Collective"
-    active_menu = get_active_menu_item
-    title += " - #{active_menu}" unless active_menu.blank?
+    active_item = get_active_item
+    title += " - #{active_item}" unless active_item.blank?
     title
   end
 end
