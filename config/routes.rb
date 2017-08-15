@@ -9,19 +9,17 @@ SassSite::Application.routes.draw do
 
   root to: "home#index"
 
-  # Markdown Documents
-  # get "/bylaws", controller: :markdown, to: "markdown#bylaws", as: "bylaws"
-  # get "/code-of-conduct", controller: :markdown, to: "markdown#code_of_conduct", as: "code_of_conduct"
+  # Contact
+  get "contact" => "contact#index", :as => "contact"
 
   # Documents
   get "/bylaws", controller: :documents, to: "documents#bylaws", as: "bylaws"
   get "/code-of-conduct", controller: :markdown, to: "documents#code_of_conduct", as: "code_of_conduct"
 
+  # Jobs
   get "/jobs/project-planner", controller: :jobs, to: 'jobs#project_planner', as: "project_planner"
   get "/jobs/rails-developer", controller: :jobs, to: 'jobs#rails_developer', as: "rails_developer"
 
-  # legacy link support
+  # Legacy link support
   get "/our_work" => redirect("/our-work")
-
-  get "contact" => "contact#index", :as => "contact"
 end
