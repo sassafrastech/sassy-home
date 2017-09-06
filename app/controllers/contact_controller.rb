@@ -10,6 +10,7 @@ class ContactController < ApplicationController
       render :index, status: 200
     else
       if @message.valid?
+        @message.body = @message.text
         NotificationsMailer.new_message(@message).deliver
         flash[:notice] = "Message was successfully sent."
         redirect_to(:action => :index)
