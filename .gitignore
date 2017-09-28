@@ -16,6 +16,8 @@
 /tmp
 TODO
 
+.idea
+
 # ignore OS files
 .DS_Store
 
