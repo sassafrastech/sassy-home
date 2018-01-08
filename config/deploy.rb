@@ -2,13 +2,13 @@
 lock '3.4.0'
 
 set :application, 'sassy_home'
-set :deploy_to, -> { "/home/tomsmyth/webapps/ror/sassy_home_#{fetch(:stage)}" }
+set :deploy_to, -> { "/home/sassafras/webapps/ror/sassy_home_#{fetch(:stage)}" }
 set :pty, true
 set :passenger_restart_with_touch, true
 set :repo_url, 'git@github.com:sassafrastech/sassy-home.git'
 set :linked_files, fetch(:linked_files, []).push('config/secrets.yml')
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system')
-set :tmp_dir, "/home/tomsmyth/tmp"
+set :tmp_dir, "/home/sassafras/tmp"
 set :default_env, {
   path: "$HOME/bin:$HOME/webapps/ror/bin:$PATH",
   gem_home: "$HOME/webapps/ror/gems",
