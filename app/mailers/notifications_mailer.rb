@@ -1,5 +1,5 @@
 class NotificationsMailer < ActionMailer::Base
-  default :from => "info@sassafrastech.com"
+  default :from => "info@sassafras.coop"
   default :to => "info@sassafras.coop"
 
   def new_message(message)
