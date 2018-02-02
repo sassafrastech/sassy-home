@@ -13,16 +13,11 @@ en:
       description: "We worked with researchers at Columbia University to build a web and mobile application to help people in low income communities manage their diabetes. We applied our expertise in interaction design, graphic design, and development."
       vignette1: "We developed a Rails app that collects blood sugar levels and helps people set goals."
       vignette2: "The system includes a mobile component that sends reminders and collects blood sugar levels through SMS and voice."
-    diabetes_educator:
-        title: "Diabetes Educator Community - Columbia University"
-        description: "We worked with Columbia University to develop an online community for diabetes educators across the U.S. The site features a structured knowledge base that allows educators to explore common glycemic problems, triggers, barriers, and goals. These knowledge base articles are tightly integrated with the site's in-built discussion forum."
-        vignette1: "We use the <a href='http://emberjs.com' target='_blank'>Ember.js</a> framework in this project, which makes for fast load times and interactivity."
-        vignette2: "The site is being built as a custom plugin for the new and popular <em><a href='http://www.discourse.org' target='_blank'>Discourse</a></em> discussion forum platform."
     elmo:
       title: "ELMO - The Carter Center"
-      description: "<a href='http://cartercenter.org' target='_blank'>The Carter Center</a> collects a tremendous amount of data during its <a href='http://www.cartercenter.org/news/multimedia/PeacePrograms/MakingitHappen-ElectionObservation.html' target='_blank'>election observation missions</a>. We created ELMO, a web- and mobile-based system that allows observers to submit data using smartphones or tablets. Staff members at mission headquarters can then review the data and draw conclusions about the election. This technology places The Carter Center <a href='http://blog.cartercenter.org/2012/08/06/carter-center-on-leading-edge-of-technology-use-in-election-observation/' target='_blank'>at the leading edge</a> of technology use in election observation."
-      vignette1: "ELMO supports location editing and mapping. GPS data is collected in the field with mobile devices."
-      vignette2: "The system also includes an integrated custom reporting engine."
+      description: "<a href='http://cartercenter.org' target='_blank'>The Carter Center</a> collects lots of data during its <a href='http://www.cartercenter.org/news/multimedia/PeacePrograms/MakingitHappen-ElectionObservation.html' target='_blank'>election observation missions</a>. We created ELMO, a web- and mobile-based system that allows observers to submit data using both smartphones and inexpensive mobile phones. Staff members at mission headquarters can then review the data and draw conclusions about the election. This technology places The Carter Center <a href='http://blog.cartercenter.org/2012/08/06/carter-center-on-leading-edge-of-technology-use-in-election-observation/' target='_blank'>at the leading edge</a> of technology use in election observation."
+      vignette1: "ELMO features a dashboard often displayed in the situation room."
+      vignette2: "Data can be submitted via coded SMS from inexpensive phones."
     eos:
       title: "EOS - The Carter Center"
       description: "We worked with the Carter Center to overhaul their database of election obligations and standards (<a href='http://eos.cartercenter.org/' target='_blank'>EOS</a>), a compendium of information on the elements necessary for a successful democracy. EOS is used by field staff as a reference for their democracy consulting work, and is also made public so anyone can compare their country's practices to the standards of democracy defined by international bodies. We used our expertise in information architecture and modeling to clarify the underlying data structure. As a result, our design makes it simple to search and filter for authoritative sources in election law. We implemented the web application using Rails."
@@ -44,11 +39,11 @@ en:
       description: "Mealyzer allows users to photograph their meals and receive near-real-time feedback on the meals' nutritional content. Users estimate the nutrients contained in the meal and receive an expert analysis minutes later. Studies have shown this feedback improves nutritional estimation ability, which is important for healthy eating. The system comprises a multi-platform mobile app and a Rails backend web app and API."
       vignette1: "Mealyzer features a diabetes module that integrates with a cutting edge blood sugar estimation model."
       vignette2: "We use Ionic/Cordova to support Android and iOS with a single codebase, reducing development cost."
-    mess:
-      title: "MESS - Ann Arbor Cohousing"
-      description: "MESS is a system for managing community meals in cohousing. At the three Ann Arbor cohousing communities that use MESS, community meals are held as much as 5 times per week. MESS allows community members to sign up, provides a cost breakdown for cooks, sends notices of upcoming meals, and manages member account statements and payments. Such a vibrant community meals program would likely not be possible without MESS."
-      vignette1: "Residents browse menus for upcoming meals."
-      vignette2: "Cooks plan their grocery purchase based on a detailed signup summary."
+    gather:
+      title: "Gather - Software for Community"
+      description: "Gather is software for community. Its mission is to make community easier so members can focus on having fun and building relationships. Created in 2015, Gather has been host to hundreds of users, thousands of resource reservations, over $50,000 worth of shared meals, and much more."
+      vignette1: "The directory is searchable and filterable."
+      vignette2: "Residents browse menus for upcoming meals."
     realrisks:
       title: "RealRisks - Columbia University"
       description: "Partnering with researchers at Columbia University, we applied our expertise in design research (participatory design and usability testing) to develop a culturally sensitive breast cancer decision aid targeted at women in northern Manhattan in New York City. The decision aid allows women to determine their risk, understand what risk means, and develop an action plan to be used to jointly make decisions with their doctor. <a href='http://designaction.org' target='_blank'>Design Action Collective</a> developed the illustrations for this project."
