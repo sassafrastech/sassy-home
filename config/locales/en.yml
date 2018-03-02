@@ -32,7 +32,7 @@ en:
       vignette1: "We developed and maintain iPhone and Android apps for the organization."
       vignette2: "We made extensive use of the Wordpress Multisite framework and developed custom plugins."
     madeline:
-      title: "Madeline System - The Working World"
+      title_html: "<b>Madeline System - The Working World</b>"
       description: "<a href='http://www.theworkingworld.org' target='_blank'>The Working World</a> (TWW) finances worker cooperatives, businesses that are owned and run by their workers, through a groundbreaking non-extractive method of finance. TWW has coined a <a href='http://www.theworkingworld.org/us/what-we-do/workplace-democracy/' target='_blank'>development strategy that creates quality, lasting jobs anchored in disadvantaged communities</a> in the U.S. and Latin America, without ever creating debt in the neighborhoods they serve. Sassafras is designing and developing the Madeline system, a web application that will be used to manage and track these projects. TWW is also developing a peer network of 22 organizations around the country that are replicating their innovative model. These peer organizations will use the Madeline system as well. Eventually, the Madeline system will support a public-facing crowdfunding platform for worker co-ops everywhere."
     mealyzer:
       title: "Mealyzer - Columbia University"
