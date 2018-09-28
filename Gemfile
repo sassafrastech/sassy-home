@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '~> 5.0'
 
 gem 'sqlite3', '>=1.3.7'
-gem 'json'
+gem 'json', '~> 2.1'
 gem 'libv8'
 
 # Asset gems

@@ -177,7 +177,7 @@ DEPENDENCIES
   capistrano-passenger
   capistrano-rails (~> 1.1)
   jquery-rails
-  json
+  json (~> 2.1)
   letter_opener
   libv8
   rails (~> 5.0)
