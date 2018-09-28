@@ -8,7 +8,7 @@ gem 'libv8'
 
 # Asset gems
 gem 'sass-rails'
-gem 'coffee-rails'
+# gem 'coffee-rails'
 gem 'uglifier'
 
 group :development do
