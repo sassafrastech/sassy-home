@@ -192,6 +192,12 @@ $linkColor: #FF8B00;
           max-width: 100%;
         }
       }
+
+      &.twitter {
+        iframe {
+          background: white;
+        }
+      }
     }
   }
 }
