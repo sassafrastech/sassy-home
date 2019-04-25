@@ -21,3 +21,8 @@ https://sassafras.coop/
 
 1. `rails s # Start the server.`
 1. Open <http://localhost:3000/>
+
+### Deploy
+
+1. Add your SSH key to the server specified in `config/deploy/production.rb`
+1. ``bundle exec cap production deploy # Deploy code from the `master` branch from GitHub``
