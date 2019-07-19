@@ -39,14 +39,6 @@ en:
       description: "Mealyzer allows users to photograph their meals and receive near-real-time feedback on the meals' nutritional content. Users estimate the nutrients contained in the meal and receive an expert analysis minutes later. Studies have shown this feedback improves nutritional estimation ability, which is important for healthy eating. The system comprises a multi-platform mobile app and a Rails backend web app and API."
       vignette1: "Mealyzer features a diabetes module that integrates with a cutting edge blood sugar estimation model."
       vignette2: "We use Ionic/Cordova to support Android and iOS with a single codebase, reducing development cost."
-    gather:
-      title: "Gather - Software for Community"
-      description: "Gather is software for community. Its mission is to make community easier so members can focus on having fun and building relationships. Created in 2015, Gather has been host to hundreds of users, thousands of resource reservations, over $50,000 worth of shared meals, and much more."
-      vignette1: "The directory is searchable and filterable."
-      vignette2: "Residents browse menus for upcoming meals."
     realrisks:
       title: "RealRisks - Columbia University"
       description: "Partnering with researchers at Columbia University, we applied our expertise in design research (participatory design and usability testing) to develop a culturally sensitive breast cancer decision aid targeted at women in northern Manhattan in New York City. The decision aid allows women to determine their risk, understand what risk means, and develop an action plan to be used to jointly make decisions with their doctor. <a href='http://designaction.org' target='_blank'>Design Action Collective</a> developed the illustrations for this project."
-    rcredits:
-      title: "rCredits - Common Good Finance"
-      description: "rCredits is an innovative community currency and payment system that envisions local democratic control of the economy. Sassafras is developing an overhaul of the Android app merchants use to accept rCredits. It will also include features for individual members to send and receive funds. The new app will be available on both iOS and Android."
