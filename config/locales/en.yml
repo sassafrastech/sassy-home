@@ -32,13 +32,16 @@ en:
       vignette1: "We developed and maintain iPhone and Android apps for the organization."
       vignette2: "We made extensive use of the Wordpress Multisite framework and developed custom plugins."
     madeline:
-      title_html: "<b>Madeline System - The Working World</b>"
+      title_html: "Madeline System - The Working World"
       description: "<a href='http://www.theworkingworld.org' target='_blank'>The Working World</a> (TWW) finances worker cooperatives, businesses that are owned and run by their workers, through a groundbreaking non-extractive method of finance. TWW has coined a <a href='http://www.theworkingworld.org/us/what-we-do/workplace-democracy/' target='_blank'>development strategy that creates quality, lasting jobs anchored in disadvantaged communities</a> in the U.S. and Latin America, without ever creating debt in the neighborhoods they serve. Sassafras is designing and developing the Madeline system, a web application that will be used to manage and track these projects. TWW is also developing a peer network of 22 organizations around the country that are replicating their innovative model. These peer organizations will use the Madeline system as well. Eventually, the Madeline system will support a public-facing crowdfunding platform for worker co-ops everywhere."
     mealyzer:
       title: "Mealyzer - Columbia University"
       description: "Mealyzer allows users to photograph their meals and receive near-real-time feedback on the meals' nutritional content. Users estimate the nutrients contained in the meal and receive an expert analysis minutes later. Studies have shown this feedback improves nutritional estimation ability, which is important for healthy eating. The system comprises a multi-platform mobile app and a Rails backend web app and API."
       vignette1: "Mealyzer features a diabetes module that integrates with a cutting edge blood sugar estimation model."
       vignette2: "We use Ionic/Cordova to support Android and iOS with a single codebase, reducing development cost."
+    monument_quilt:
+      title: "Monument Quilt - FORCE"
+      description: "The Monument Quilt is a collection of thousands of stories from survivors of rape and abuse. The Monument Quilt serves as a monument and healing space for survivors. We supported <a href='https://www.upsettingrapeculture.com/' target='_blank'>FORCE</a> in building a mobile-friendly web application to document each square that makes up the Monument Quilt. <a href='https://app.themonumentquilt.org/' target='_blank'>The Monument Quilt App</a> serves as a searchable record of the quilt squares that make up The Monument Quilt. The application was used as an event app during the time The Monument Quilt was displayed on the National Mall in Washington, D.C. in May and June 2019."
     realrisks:
       title: "RealRisks - Columbia University"
       description: "Partnering with researchers at Columbia University, we applied our expertise in design research (participatory design and usability testing) to develop a culturally sensitive breast cancer decision aid targeted at women in northern Manhattan in New York City. The decision aid allows women to determine their risk, understand what risk means, and develop an action plan to be used to jointly make decisions with their doctor. <a href='http://designaction.org' target='_blank'>Design Action Collective</a> developed the illustrations for this project."
