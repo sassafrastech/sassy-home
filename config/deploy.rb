@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.11.0'
+lock '~> 3.11'
 
 set :application, 'sassy_home'
 set :deploy_to, -> { "/home/sassafras/webapps/ror/sassy_home_#{fetch(:stage)}" }
