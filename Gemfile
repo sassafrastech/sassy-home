@@ -2,28 +2,24 @@ source 'http://rubygems.org'
 
 gem 'rails', '~> 5.2'
 
-gem 'sqlite3', '>=1.3.7'
+gem 'sqlite3', '~> 1.3'
 gem 'json', '~> 2.1'
-gem 'libv8'
 
 # Asset gems
-gem 'sass-rails'
-# gem 'coffee-rails'
-gem 'uglifier'
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '~> 4.1'
 
-group :development do
-  gem 'letter_opener'
-end
-
-gem 'therubyracer'
-gem 'jquery-rails'
+gem 'therubyracer', '~> 0.12'
+gem 'jquery-rails', '~> 4.3'
 
 # Support Markdown
-gem 'redcarpet'
+gem 'redcarpet', '~> 3.4'
 
 group :development do
-  gem 'capistrano', '~> 3.0', require: false
-  gem 'capistrano-rails',   '~> 1.1', require: false
-  gem 'capistrano-bundler', '~> 1.1', require: false
-  gem 'capistrano-passenger'
+  gem 'letter_opener', '~> 1.6'
+
+  gem 'capistrano', '~> 3.0'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-bundler', '~> 1.1'
+  gem 'capistrano-passenger', '~> 0.2'
 end
