@@ -6,7 +6,7 @@ gem 'sqlite3', '~> 1.3'
 gem 'json', '~> 2.1'
 
 # Asset gems
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0.0'
 gem 'uglifier', '~> 4.1'
 
 gem 'therubyracer', '~> 0.12'
