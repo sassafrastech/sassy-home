@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '= 5.2.4'
 # Lock some dependencies that require newer versions of ruby
 gem 'i18n', '~> 1.4.0'
-gem 'nokogiri', '~> 1.9.0'
+gem 'nokogiri', '~> 1.10.4'
 gem 'nio4r', '~> 2.3.0'
 
 gem 'sqlite3', '~> 1.3'
