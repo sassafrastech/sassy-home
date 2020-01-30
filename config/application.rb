@@ -59,5 +59,8 @@ module SassSite
     config.action_mailer.default_url_options = {
       :host => "sassafras.coop"
     }
+
+    # Fix deprecation warnings during tests
+    config.active_record.sqlite3.represent_boolean_as_integer = true
   end
 end
