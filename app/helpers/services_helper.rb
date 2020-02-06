@@ -55,7 +55,7 @@ module ServicesHelper
         {
           :name =>        "Custom Web Applications",
           :short_blurb => "We build your web application from scratch using the latest open-source web framework and database technologies.",
-          :long_blurb =>  "We build your web application from scratch using the latest open-source web framework technologies such as Ruby on Rails and Ember.js. We have experience with mission-critical, well-trafficked apps. We can help you choose the right technologies for your project and deliver a fast, secure, scalable, and maintainable system."
+          :long_blurb =>  "We build your web application from scratch using the latest open-source web framework technologies such as Ruby on Rails, Vue, and React. We have experience with mission-critical, well-trafficked apps. We can help you choose the right technologies for your project and deliver a fast, secure, scalable, and maintainable system."
         },{
           :name =>        "Mobile Apps",
           :short_blurb => "We create high quality mobile applications for Android, iOS, and other platforms.",
@@ -63,11 +63,11 @@ module ServicesHelper
         },{
           :name =>        "Rich Web Interactivity",
           :short_blurb => "We use the latest technologies to provide a rich interactive experience with your site.",
-          :long_blurb =>  "Web interactivity is not only eye-catching and impactful, it can also be essential for your site’s usability and user satisfaction. We use industry standard technologies including HTML5, AJAX, and WebSockets to provide a rich interactive experience with your site. This includes everything from basic animations to dynamic content creation and editing, multimedia content embedding, and live communication."
+          :long_blurb =>  "Web interactivity is not only eye-catching and impactful, it can also be essential for your site’s usability and user satisfaction. We use industry standard technologies including Vue, React, AJAX, and WebSockets to provide a rich interactive experience with your site. This includes everything from basic animations to dynamic content creation and editing, multimedia content embedding, and live communication."
         },{
           :name =>        "Content Management Systems (CMS)",
           :short_blurb => "We can create a customized CMS-driven site that will enable you to create and edit your own content.",
-          :long_blurb =>  "If your needs don’t entail a full, custom web application, we can create a customized CMS-driven site that will enable you to create and edit your own content. We build a custom-designed template to suit your organization’s identity, and setup extensions and plugins to achieve the features you need. We can also develop custom plugins for a variety of leasing CMSes including Wordpress, Drupal, and MediaWiki."
+          :long_blurb =>  "If your needs don’t entail a full, custom web application, we can create a customized CMS-driven site that will enable you to create and edit your own content. We build a custom-designed template to suit your organization’s identity, and setup extensions and plugins to achieve the features you need. We can also develop custom plugins for a variety of leasing CMSes including WordPress, Drupal, and MediaWiki."
         },{
           :name =>        "Hosting and Maintenance",
           :short_blurb => "We can get your site and running in a secure, reliable fashion and ensure that it is always available.",
