@@ -37,7 +37,7 @@
     <div class="nav">
       <ul>
         <% get_menu.each do |m| %>
-          <li><%= link_to(m[:name], "/#{m[:link]}", :class => is_active?(m[:link])) %></li>
+          <li><%= link_to(m[:name], m[:external_link] || "/#{m[:link]}", :class => is_active?(m[:link])) %></li>
         <% end %>
       </ul>
     </div>
