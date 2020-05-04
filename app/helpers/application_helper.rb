@@ -6,7 +6,8 @@ module ApplicationHelper
     {:name => "About", :link => "about"},
     {:name => "Team", :link => "team"},
     {:name => "Jobs", :link => "jobs"},
-    {:name => "Contact", :link => "contact"}
+    {:name => "Contact", :link => "contact"},
+    {:name => "Give us advice!", :external_link => "https://docs.google.com/forms/d/e/1FAIpQLSe8ZaMPKUo4SiQ1UPlPq0UQjmeKxIPGZDmfKDs3Xk_BP4vRcg/viewform"}
   ]
 
   # For pages not included in the main menu that need their headings displayed in the top header
