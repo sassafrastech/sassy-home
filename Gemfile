@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 5.2.4'
+# Use a branch until they release a bug fix
+# https://github.com/rails/rails/commit/892eab777c418135ce0646e91bc9ebb08a29ab9b
+gem 'rails', github: "rails/rails", branch: "5-2-stable"
+
 # Lock some dependencies that require newer versions of ruby
 gem 'i18n', '~> 1.4.0'
 gem 'nokogiri', '~> 1.9.0'
