@@ -6,7 +6,7 @@ gem 'rails', github: "rails/rails", branch: "5-2-stable"
 
 # Lock some dependencies that require newer versions of ruby
 gem 'i18n', '~> 1.4.0'
-gem 'nokogiri', '~> 1.9.0'
+gem 'nokogiri', '~> 1.10.9'
 gem 'nio4r', '~> 2.3.0'
 
 gem 'sqlite3', '~> 1.3'
