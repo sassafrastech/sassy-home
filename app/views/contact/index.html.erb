@@ -17,7 +17,7 @@
   </div>
 
 
-  <%= form_for @message, url: contact_path, html: {autocomplete: "off"} do |form| %>
+  <%= form_for @message, url: contact_path, html: {autocomplete: "off"}, authenticity_token: false do |form| %>
     <fieldset class="fields">
       <div class="field">
         <%= form.label :name %>
