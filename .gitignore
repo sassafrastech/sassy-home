@@ -7,6 +7,8 @@
 
 # Ignore bundler config
 /.bundle
+# Local bundle installs
+vendor/bundle/
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
