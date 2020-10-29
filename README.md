@@ -24,5 +24,4 @@ https://sassafras.coop/
 
 ### Deploy
 
-1. Add your SSH key to the server specified in `config/deploy/production.rb`
-1. ``bundle exec cap production deploy # Deploy code from the `main` branch from GitHub``
+1. Push `main` to GitHub and Digital Ocean will build and deploy automatically.

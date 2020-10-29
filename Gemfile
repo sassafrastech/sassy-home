@@ -26,11 +26,6 @@ gem 'redcarpet', '~> 3.4'
 group :development do
   gem 'letter_opener', '~> 1.6'
 
-  gem 'capistrano', '~> 3.0'
-  gem 'capistrano-bundler', '~> 1.1'
-  gem 'capistrano-passenger', '~> 0.2'
-  gem 'capistrano-rails', '~> 1.1'
-
   gem 'puma'
   gem 'rubocop'
 end
