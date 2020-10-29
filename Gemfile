@@ -18,7 +18,7 @@ gem 'sass-rails', '~> 5.0.0'
 gem 'uglifier', '~> 4.1'
 
 gem 'jquery-rails', '~> 4.3'
-gem 'therubyracer', '~> 0.12'
+gem 'mini_racer', '~> 0.3'
 
 # Support Markdown
 gem 'redcarpet', '~> 3.4'
