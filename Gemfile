@@ -21,7 +21,7 @@ gem 'jquery-rails', '~> 4.3'
 gem 'mini_racer', '~> 0.3'
 
 # Support Markdown
-gem 'redcarpet', '~> 3.4'
+gem 'redcarpet', '~> 3.5'
 
 group :development do
   gem 'letter_opener', '~> 1.6'
