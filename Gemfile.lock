@@ -122,7 +122,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    redcarpet (3.5.0)
+    redcarpet (3.5.1)
     rubocop (0.68.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -175,7 +175,7 @@ DEPENDENCIES
   nokogiri (~> 1.9.0)
   puma
   rails (~> 5.2)
-  redcarpet (~> 3.4)
+  redcarpet (~> 3.5)
   rubocop
   sass-rails (~> 5.0.0)
   sqlite3 (~> 1.3)
