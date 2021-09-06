@@ -5,7 +5,7 @@ module ApplicationHelper
     {:name => "Our Work", :link => "our-work"},
     {:name => "About", :link => "about"},
     {:name => "Team", :link => "team"},
-    {:name => "Jobs", :link => "jobs"},
+    {:name => "Jobs", :external_link => "https://blog.sassafras.coop/were-hiring-developers/"},
     {:name => "Contact", :link => "contact"}
   ]
 
