@@ -27,3 +27,4 @@ TODO
 public/assets
 
 config/secrets.yml
+.env
