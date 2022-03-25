@@ -25,7 +25,7 @@ gem 'redcarpet', '~> 3.4'
 
 group :development do
   gem 'letter_opener', '~> 1.6'
-
+  gem 'dotenv-rails'
   gem 'puma'
   gem 'rubocop'
 end
