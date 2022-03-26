@@ -14,7 +14,7 @@ gem 'json', '~> 2.1'
 gem 'sqlite3', '~> 1.3'
 
 # Asset gems
-gem 'sassc'
+gem 'sassc-rails'
 gem 'uglifier', '~> 4.1'
 
 gem 'jquery-rails', '~> 4.3'
