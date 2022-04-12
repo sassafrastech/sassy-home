@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2'
 # Lock some dependencies that require newer versions of ruby
 gem 'i18n', '~> 1.4'
 gem 'nio4r', '~> 2.3'
-gem 'nokogiri', '~> 1.9'
+gem 'nokogiri', '~> 1.13'
 
 gem 'json', '~> 2.1'
 gem 'sqlite3', '~> 1.3'
